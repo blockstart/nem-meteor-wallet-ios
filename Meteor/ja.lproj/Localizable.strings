@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  Meteor
+
+  Created by Nathan Brewer on 8/22/18.
+  Copyright © 2018 Blockstart. All rights reserved.
+*/
+
+"Scan to Import Wallet" = "インポートウォレットにスキャン";
+"My Mosaics" = "マイモザイク";
+"Current XEM Price" = "現在のXEM価格";
+"Passwords do not match" = "パスワードが一致していません";
+"Password must be at least 8 characters" = "パスワードは最低８桁が必要です";
+"Please fill out form completely" = "上記内容を完成してください";
+"Email was not sent, please try again" = "メールを送信出来ませんでした、再度ご記入してください";
+"Enter a wallet account name and password" = "ウォレットのアカウント名とパスワードを入力してください";
+"account" = "アカウント";
+"name" = "名前";
+"password" = "パスワード";
+"Meteor Wallet is fully decentralized and data is only stored locally." = "ミティオアウォレットは完全に分散型アプリで、データはローカルストレージにしか保存されません.";
+"data is only stored locally." = "データはローカルストレージにしか保存されません.";
+"Enter the private key, wallet name, and password for your wallet" = "ウォレットのプライベートキー、名前、パスワードを入力してください";
+"Your Wallet Backup" = "ウォレットのバックアップ";
+"An email has been sent to" = "_にメールが送信されました";
+"Address Copied!" = "コピー完了";
+"Just a friendly reminder" = "ご参考に";
+"Next" = "次に";
+"Send" = "送信";
+"Cancel" = "キャンセル";
+"recipient" = "受信者";
+"currency" = "通貨";
+"amount" = "量";
+"Error" = "エラー";
+"Enter your password" = "パスワードをご記入ください";
+"Retype password" = "パスワードを再記入ください";
+"You don't have any mosaics in this wallet" = "このウォレットにはモザイクがございません";
+"USD" = "USドル";
+"New Wallet" = "新規ウォレット";
+"Import From QR Code" = "QRコードからインポート";
+"Import From Private Key" = "プライベートキーからインポート";
+"Create New Wallet" = "新規ウォレットを作成";
+"Received" = "受信済み";
+"Sent" = "送信済み";
+"Pending" = "確認中";
+"To:" = "宛:";
+"Date:" = "日付:";
+"Fee:" = "手数料:";
+"Message:" = "メッセージ:";
+"Transaction ID:" = "トランザクションID:";
+"wallet account name" = "ウォレットアカウント名";
+"Send me my backup file" = "自分へバックアップファイルを送る";
+"Type email" = "Eメールをご記入ください";
+"You're all set!" = "完了";
+"private key" = "プライベートキー";
+"wallet name" = "ウォレット名";
+"Unable to find wallet" = "ウォレットが見つかりません";
+"Make sure you have a wallet on your device, or you can create a new one from the home screen" = "デバイスにウォレットがあるかご確認ください、無い場合はホーム画面から作成できます。";
+"Not Authorized" = "未承認";
+"You can allow Meteor Wallet to access the camera in your phones Settings Menu" = "ミティオアウォレットからカメラのアクセスは携帯の設定画面からお願いします";
+"Insufficient funds" = "資産が足りません";
+"Missing Mosaic" = "モザイクがございません";
+"password belonging to this wallet" = "このウォレットのパスワード";
+"Import" = "インポート";
+"Bal." = "残高";
+"Incorrect password" = "パスワードが間違っています";
+"Signer" = "サイン主";
+"bad QR" = "このQRコードは使えません";
+"properQRCode" = "バックアップウォレットQR、またはナノウォレットQRをスキャンしてください";
+"Show" = "見せる";
+"Create Wallet" = "ウォレットを作成";
+"No Wallets" = "ウォレットがございません";
+"noWallet1" = "続ける場合は新規ウォレット作成が必要となります";
+"noWallet2" = "このページに残りたい場合はキャンセルを押してください";
+"wrongNetwork" = "このウォレットは現ネットワーク上にありません。ネットワークを変えてからウォレットをインポートしてください";
+"incorrectNetwork" = "ネットワークが間違っています";
+"duplicateImport" = "このウォレットはインポート済です";
+"duplicateTitle" = "複製";
+"photoBackup" = "バックアップウォレットが保存されました";
+"photos" = "写真";
+"noEmailFound" = "Meteor Walletはメール機能を開けませんでした";
+"noPhotoPermission" = "Meteor Walletに写真をアクセスする権限がございません";
+"pinEnabled" = "Pin Lock Enabled";
+"pinDisabled" = "Pin Lock Disabled";
+"faceId" = "Use Face ID to login";
+"touchId" = "Use Touch ID to login";
+"removePinLock" = "Enter Pin to remove Pin Lock";
+"Enter Pin" = "Enter Pin";
+"Confirm New Pin" = "Confirm New Pin";
+"Enter New Pin" = "Enter New Pin?";
+"enablePin" = "Enable Pin Login";
+"disablePin" = "Disable Pin Login?";
+"enablePinWarning" = "With Pin Login enabled you will be required to enter your pin each time you open Meteor Wallet. Pins are stored locally on your device and if you forget your pin you will have to re-install the app and re-import your wallet.";
+"Copied!" = "Copied!";

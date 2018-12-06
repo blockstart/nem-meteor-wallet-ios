@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire"
+github "airbnb/lottie-ios" "master"
+github "hyperoslo/Cache"
+github "socketio/socket.io-client-swift"
+github "krzyzanowskim/CryptoSwift"

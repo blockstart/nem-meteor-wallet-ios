@@ -1,0 +1,2213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260D88A5217548DC00F6D4D4 /* node in Resources */ = {isa = PBXBuildFile; fileRef = 260D88A4217548DC00F6D4D4 /* node */; };
+		261FDCAF21648EC500EF3329 /* FilterTransactionNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266B30FF213CB420000EA1BC /* FilterTransactionNIS1.swift */; };
+		261FDCB021648ECB00EF3329 /* FilteredTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266B3101213CB5DE000EA1BC /* FilteredTransaction.swift */; };
+		261FDCB12164915500EF3329 /* TransactionNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D3322110284E00A61FE3 /* TransactionNIS1.swift */; };
+		261FDCB22164942400EF3329 /* TimeWindowNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F76B2139B83E0068194B /* TimeWindowNIS1.swift */; };
+		261FDCB32164943000EF3329 /* AddressNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F76D2139B8A70068194B /* AddressNIS1.swift */; };
+		261FDCB42164943700EF3329 /* XemNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F76F2139B8F40068194B /* XemNIS1.swift */; };
+		261FDCB52164944000EF3329 /* MessageNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7712139B9670068194B /* MessageNIS1.swift */; };
+		261FDCB62164944700EF3329 /* SignerNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7732139B9C70068194B /* SignerNIS1.swift */; };
+		261FDCB72164944E00EF3329 /* TransactionInfoNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7752139BA040068194B /* TransactionInfoNIS1.swift */; };
+		2633834D21532B1300ECF190 /* zlib in Resources */ = {isa = PBXBuildFile; fileRef = 2633834C21532B1300ECF190 /* zlib */; };
+		2636F74B2139B45E0068194B /* MosaicProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F74A2139B45E0068194B /* MosaicProperties.swift */; };
+		2636F74C2139B46F0068194B /* MosaicProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F74A2139B45E0068194B /* MosaicProperties.swift */; };
+		2636F74E2139B4A10068194B /* MosaicLevy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F74D2139B4A10068194B /* MosaicLevy.swift */; };
+		2636F74F2139B4A10068194B /* MosaicLevy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F74D2139B4A10068194B /* MosaicLevy.swift */; };
+		2636F7512139B4BC0068194B /* MosaicId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7502139B4BC0068194B /* MosaicId.swift */; };
+		2636F7522139B4BC0068194B /* MosaicId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7502139B4BC0068194B /* MosaicId.swift */; };
+		2636F7572139B5290068194B /* TimeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7562139B5290068194B /* TimeWindow.swift */; };
+		2636F7582139B5290068194B /* TimeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7562139B5290068194B /* TimeWindow.swift */; };
+		2636F75A2139B5420068194B /* TransactionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7592139B5420068194B /* TransactionInfo.swift */; };
+		2636F75B2139B5420068194B /* TransactionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7592139B5420068194B /* TransactionInfo.swift */; };
+		2636F75D2139B5A40068194B /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F75C2139B5A40068194B /* Hash.swift */; };
+		2636F75E2139B5A40068194B /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F75C2139B5A40068194B /* Hash.swift */; };
+		2636F7602139B5C60068194B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F75F2139B5C60068194B /* Message.swift */; };
+		2636F7612139B5C60068194B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F75F2139B5C60068194B /* Message.swift */; };
+		2636F7632139B5DD0068194B /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7622139B5DD0068194B /* Signer.swift */; };
+		2636F7642139B5DD0068194B /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7622139B5DD0068194B /* Signer.swift */; };
+		2636F7662139B6200068194B /* Xem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7652139B6200068194B /* Xem.swift */; };
+		2636F7672139B6200068194B /* Xem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7652139B6200068194B /* Xem.swift */; };
+		2636F7692139B6410068194B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7682139B6410068194B /* Address.swift */; };
+		2636F76A2139B6410068194B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7682139B6410068194B /* Address.swift */; };
+		2636F76C2139B83E0068194B /* TimeWindowNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F76B2139B83E0068194B /* TimeWindowNIS1.swift */; };
+		2636F76E2139B8A70068194B /* AddressNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F76D2139B8A70068194B /* AddressNIS1.swift */; };
+		2636F7702139B8F40068194B /* XemNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F76F2139B8F40068194B /* XemNIS1.swift */; };
+		2636F7722139B9670068194B /* MessageNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7712139B9670068194B /* MessageNIS1.swift */; };
+		2636F7742139B9C70068194B /* SignerNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7732139B9C70068194B /* SignerNIS1.swift */; };
+		2636F7762139BA040068194B /* TransactionInfoNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7752139BA040068194B /* TransactionInfoNIS1.swift */; };
+		2636F7782139BC050068194B /* MosaicIdNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7772139BC040068194B /* MosaicIdNIS1.swift */; };
+		2636F77A2139C0390068194B /* HashNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7792139C0390068194B /* HashNIS1.swift */; };
+		2636F77C2139C2DB0068194B /* MosaicPropertiesNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F77B2139C2DB0068194B /* MosaicPropertiesNIS1.swift */; };
+		2636F77E2139C3BE0068194B /* MosaicLevyNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F77D2139C3BE0068194B /* MosaicLevyNIS1.swift */; };
+		2637EF9B212BEF9E008A2B39 /* EncryptedPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637EF9A212BEF9E008A2B39 /* EncryptedPrivateKey.swift */; };
+		264A552A2123488900765800 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A55292123488900765800 /* SocketService.swift */; };
+		266B3100213CB420000EA1BC /* FilterTransactionNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266B30FF213CB420000EA1BC /* FilterTransactionNIS1.swift */; };
+		266B3102213CB5DE000EA1BC /* FilteredTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266B3101213CB5DE000EA1BC /* FilteredTransaction.swift */; };
+		267F903C2164AB9800694A46 /* WalletNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D3352110285F00A61FE3 /* WalletNIS1.swift */; };
+		26A91FCA215B050900D7DAE6 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D320211016A000A61FE3 /* Wallet.swift */; };
+		26A91FCC215B053500D7DAE6 /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E9487221477A5900DF875E /* DataExt.swift */; };
+		26A91FCF215B06E600D7DAE6 /* PrivateKeyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B366921542FB6007B967D /* PrivateKeyModal.swift */; };
+		26A91FD1215B072600D7DAE6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819C9210168D900896B0B /* UIColor.swift */; };
+		26AF2CB6215185F0000B7E67 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF2CB5215185F0000B7E67 /* PushNotification.swift */; };
+		26AF2CB821518AE0000B7E67 /* NIS1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052F42109890400AC194B /* NIS1Model.swift */; };
+		26B0986F21275A8A0015F164 /* SocketConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0986E21275A8A0015F164 /* SocketConnectionDelegate.swift */; };
+		26B314622142618D00162DA2 /* NIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B314612142618D00162DA2 /* NIS.swift */; };
+		26C93AD7212F4101000A21B9 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C93AD6212F4101000A21B9 /* Serializable.swift */; };
+		26E35C7421B09414004386DD /* NodeMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C6D21B09413004386DD /* NodeMobile.framework */; };
+		26E35C7B21B0941A004386DD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7121B09413004386DD /* Alamofire.framework */; };
+		26E35C7C21B0941A004386DD /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7121B09413004386DD /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26E35C7D21B0941A004386DD /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7321B09414004386DD /* Cache.framework */; };
+		26E35C7E21B0941A004386DD /* Cache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7321B09414004386DD /* Cache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26E35C7F21B0941A004386DD /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7221B09413004386DD /* CryptoSwift.framework */; };
+		26E35C8021B0941A004386DD /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7221B09413004386DD /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26E35C8121B0941A004386DD /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C6E21B09413004386DD /* Lottie.framework */; };
+		26E35C8221B0941A004386DD /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C6E21B09413004386DD /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26E35C8421B0941A004386DD /* NodeMobile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C6D21B09413004386DD /* NodeMobile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26E35C8521B0941A004386DD /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C6F21B09413004386DD /* SocketIO.framework */; };
+		26E35C8621B0941A004386DD /* SocketIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C6F21B09413004386DD /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26E35C8721B0941A004386DD /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7021B09413004386DD /* Starscream.framework */; };
+		26E35C8821B0941A004386DD /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26E35C7021B09413004386DD /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26F531DF21421933009619C7 /* VitalsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F531DE21421933009619C7 /* VitalsService.swift */; };
+		53501997216F98FE00494C10 /* PinLockStateTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53501996216F98FE00494C10 /* PinLockStateTypes.swift */; };
+		5350199B21701BAE00494C10 /* PinPadDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5350199A21701BAE00494C10 /* PinPadDisplay.swift */; };
+		5350199D217021DE00494C10 /* PinPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5350199C217021DE00494C10 /* PinPadButton.swift */; };
+		537796932152BCAF00D20772 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E92720E5A3AF006E7370 /* Strings.swift */; };
+		537796972152CFDD00D20772 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F05A20E71F9D0078CE47 /* Numbers.swift */; };
+		537796982152CFFC00D20772 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7E5213471AB00666EB7 /* CurrencyConverter.swift */; };
+		537796992152D06300D20772 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E818920E0A024005F5271 /* Constants.swift */; };
+		5377969B2152E9C500D20772 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		537796D62153136300D20772 /* TransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537796D42153136200D20772 /* TransactionTests.swift */; };
+		537796D72153136300D20772 /* MockedCurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537796D52153136200D20772 /* MockedCurrencyConverter.swift */; };
+		53E94871214219D000DF875E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		53E9487321477A5900DF875E /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E9487221477A5900DF875E /* DataExt.swift */; };
+		53FA0D14216AE5E500685F2A /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA0D13216AE5E400685F2A /* PinView.swift */; };
+		53FA0D18216B8D9200685F2A /* PinDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA0D17216B8D9200685F2A /* PinDisplay.swift */; };
+		53FA0D1A216BACE900685F2A /* PinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA0D19216BACE900685F2A /* PinVC.swift */; };
+		53FA0D1E216C302F00685F2A /* DeepLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA0D1D216C302F00685F2A /* DeepLinkTests.swift */; };
+		53FA0D1F216C308700685F2A /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91C20E48CDB006E7370 /* DeepLinkManager.swift */; };
+		53FA0D20216C30A200685F2A /* DeepLinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E92020E490AE006E7370 /* DeepLinkParser.swift */; };
+		53FA0D22216C3BE700685F2A /* HashNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7792139C0390068194B /* HashNIS1.swift */; };
+		53FA0D23216C3C4100685F2A /* DeepLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91E20E48ECA006E7370 /* DeepLinkNavigator.swift */; };
+		53FA0D24216C3C4500685F2A /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E92220E4A9C8006E7370 /* RootController.swift */; };
+		831B366821542DCE007B967D /* PrivateKeyModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831B366721542DCE007B967D /* PrivateKeyModal.xib */; };
+		831B366A21542FB6007B967D /* PrivateKeyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B366921542FB6007B967D /* PrivateKeyModal.swift */; };
+		831B366C21543C87007B967D /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 831B366B21543C87007B967D /* SourceSansPro-Italic.ttf */; };
+		831E815620DDA9FA005F5271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831E815420DDA9FA005F5271 /* Main.storyboard */; };
+		831E815B20DDA9FB005F5271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831E815920DDA9FB005F5271 /* LaunchScreen.storyboard */; };
+		8346FEB321724C44003746F7 /* LocalAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346FEB221724C44003746F7 /* LocalAuth.swift */; };
+		83540D0B210A4A520028E0A3 /* nem-to-the-moon.json in Resources */ = {isa = PBXBuildFile; fileRef = 83540D0A210A4A520028E0A3 /* nem-to-the-moon.json */; };
+		835B19DF2138C7B60039FD49 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B19DE2138C7B60039FD49 /* AppState.swift */; };
+		835B19E12138F2E60039FD49 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		835B19E22138F2E60039FD49 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		835B19E32138F2E60039FD49 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		835B19E42138F2E60039FD49 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		835B19E52138F2E60039FD49 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		835B19FA2138FD010039FD49 /* CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392F3C9211120B7004D4530 /* CacheTests.swift */; };
+		835B19FB213902A00039FD49 /* Mosaic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052FA21098B1C00AC194B /* Mosaic.swift */; };
+		835B19FC213902A50039FD49 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83605305210A285A00AC194B /* Transaction.swift */; };
+		835B19FD213902BE0039FD49 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052F721098B0700AC194B /* Account.swift */; };
+		835B19FF2139032E0039FD49 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C93AD6212F4101000A21B9 /* Serializable.swift */; };
+		835B1A00213903750039FD49 /* EncryptedPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637EF9A212BEF9E008A2B39 /* EncryptedPrivateKey.swift */; };
+		836052D82109464300AC194B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 836052D72109464300AC194B /* README.md */; };
+		83605309210A32F900AC194B /* mosaics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83605308210A32F900AC194B /* mosaics.plist */; };
+		8367EECE2146DFF7003A2AEE /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367EECD2146DFF7003A2AEE /* UILabelExt.swift */; };
+		8385F9A4213A572600A6FFED /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385F9A3213A572600A6FFED /* WalletCell.swift */; };
+		838817502163CA8C005EC392 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B19DE2138C7B60039FD49 /* AppState.swift */; };
+		838817512163CAC8005EC392 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF2CB5215185F0000B7E67 /* PushNotification.swift */; };
+		838817522163CB0A005EC392 /* AccountNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D32C2110218B00A61FE3 /* AccountNIS1.swift */; };
+		838817532163CB30005EC392 /* MosaicNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D32F2110283C00A61FE3 /* MosaicNIS1.swift */; };
+		838817542163CB5F005EC392 /* MosaicIdNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F7772139BC040068194B /* MosaicIdNIS1.swift */; };
+		838817552163CB7C005EC392 /* MosaicPropertiesNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F77B2139C2DB0068194B /* MosaicPropertiesNIS1.swift */; };
+		838817562163CBA6005EC392 /* MosaicLevyNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636F77D2139C3BE0068194B /* MosaicLevyNIS1.swift */; };
+		8392F38921111A32004D4530 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 836052CA210930A800AC194B /* Cartfile */; };
+		8392F38B21111AE1004D4530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E815020DDA9FA005F5271 /* AppDelegate.swift */; };
+		8392F38D21111AE1004D4530 /* WalletHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F417620E2C72E00BD0F98 /* WalletHomeVC.swift */; };
+		8392F38E21111AE1004D4530 /* CurrencyDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F417A20E2D57400BD0F98 /* CurrencyDetailsVC.swift */; };
+		8392F38F21111AE1004D4530 /* TransactionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F417E20E2EF7900BD0F98 /* TransactionDetailVC.swift */; };
+		8392F39021111AE1004D4530 /* SendHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F418020E3074600BD0F98 /* SendHomeVC.swift */; };
+		8392F39121111AE1004D4530 /* SendAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F418620E4234F00BD0F98 /* SendAmountVC.swift */; };
+		8392F39221111AE1004D4530 /* SendConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91520E4358A006E7370 /* SendConfirmationVC.swift */; };
+		8392F39321111AE1004D4530 /* ReceiveHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91720E4443C006E7370 /* ReceiveHomeVC.swift */; };
+		8392F39421111AE1004D4530 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E92220E4A9C8006E7370 /* RootController.swift */; };
+		8392F39521111AE1004D4530 /* NewWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F05E20EC236E0078CE47 /* NewWalletVC.swift */; };
+		8392F39621111AE1004D4530 /* CreateWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F06020EC32410078CE47 /* CreateWalletVC.swift */; };
+		8392F39721111AE1004D4530 /* BackupWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F06620EEA21B0078CE47 /* BackupWalletVC.swift */; };
+		8392F39821111AE1004D4530 /* EmailSentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819B520FE6ED600896B0B /* EmailSentVC.swift */; };
+		8392F39921111AE1004D4530 /* ImportWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83540D0721098D0F0028E0A3 /* ImportWalletVC.swift */; };
+		8392F39B21111AE1004D4530 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E818E20E0A3ED005F5271 /* CALayer.swift */; };
+		8392F39C21111AE1004D4530 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E92720E5A3AF006E7370 /* Strings.swift */; };
+		8392F39D21111AE1004D4530 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F05A20E71F9D0078CE47 /* Numbers.swift */; };
+		8392F39E21111AE1004D4530 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F06420EC52100078CE47 /* UIViewController.swift */; };
+		8392F39F21111AE1004D4530 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819C9210168D900896B0B /* UIColor.swift */; };
+		8392F3A021111AE1004D4530 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052C32109263100AC194B /* Thread.swift */; };
+		8392F3A121111AE1004D4530 /* NIS1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052F42109890400AC194B /* NIS1Model.swift */; };
+		8392F3A221111AE1004D4530 /* AccountNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D32C2110218B00A61FE3 /* AccountNIS1.swift */; };
+		8392F3A321111AE1004D4530 /* MosaicNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D32F2110283C00A61FE3 /* MosaicNIS1.swift */; };
+		8392F3A421111AE1004D4530 /* TransactionNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D3322110284E00A61FE3 /* TransactionNIS1.swift */; };
+		8392F3A521111AE1004D4530 /* WalletNIS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D3352110285F00A61FE3 /* WalletNIS1.swift */; };
+		8392F3A621111AE1004D4530 /* CodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819AE20FD232100896B0B /* CodeReader.swift */; };
+		8392F3A921111AE1004D4530 /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819AB20FD21C900896B0B /* QRCodeScanner.swift */; };
+		8392F3AA21111AE1004D4530 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052F721098B0700AC194B /* Account.swift */; };
+		8392F3AB21111AE1004D4530 /* Mosaic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052FA21098B1C00AC194B /* Mosaic.swift */; };
+		8392F3AC21111AE1004D4530 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83605305210A285A00AC194B /* Transaction.swift */; };
+		8392F3AD21111AE1004D4530 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D320211016A000A61FE3 /* Wallet.swift */; };
+		8392F3AF21111AE1004D4530 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819B320FE54CA00896B0B /* Alerts.swift */; };
+		8392F3B021111AE1004D4530 /* SMSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91920E46B3C006E7370 /* SMSManager.swift */; };
+		8392F3B121111AE1004D4530 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91C20E48CDB006E7370 /* DeepLinkManager.swift */; };
+		8392F3B221111AE1004D4530 /* DeepLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E91E20E48ECA006E7370 /* DeepLinkNavigator.swift */; };
+		8392F3B321111AE1004D4530 /* DeepLinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4E92020E490AE006E7370 /* DeepLinkParser.swift */; };
+		8392F3B421111AE1004D4530 /* EmailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F06A20EEBF140078CE47 /* EmailManager.swift */; };
+		8392F3B521111AE1004D4530 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819A720EEF22600896B0B /* Helpers.swift */; };
+		8392F3B621111AE1004D4530 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E818920E0A024005F5271 /* Constants.swift */; };
+		8392F3B721111AE1004D4530 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819B920FFCE6000896B0B /* Validators.swift */; };
+		8392F3B821111AE1004D4530 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052DA21095FFF00AC194B /* Button.swift */; };
+		8392F3B921111AE1004D4530 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052D921095FFF00AC194B /* Label.swift */; };
+		8392F3BA21111AE1004D4530 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836052DB21095FFF00AC194B /* ShadowView.swift */; };
+		8392F3BC21111AE1004D4530 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F417820E2CC5D00BD0F98 /* CurrencyCell.swift */; };
+		8392F3BD21111AE1004D4530 /* CurrencyDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F417C20E2DF3500BD0F98 /* CurrencyDetailCell.swift */; };
+		8392F3BE21111AE1004D4530 /* SendCurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F418220E319DF00BD0F98 /* SendCurrencyCell.swift */; };
+		8392F3BF21111AE1004D4530 /* QRPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837819B020FD4D4C00896B0B /* QRPreviewView.swift */; };
+		8392F3C621111CF7004D4530 /* NodeRunner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8392F3C421111CF7004D4530 /* NodeRunner.mm */; };
+		83B010EA214B08AF00219694 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B010E9214B08AF00219694 /* BaseVC.swift */; };
+		83C8AF65213D605A007FE390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C8AF64213D605A007FE390 /* Assets.xcassets */; };
+		83E0E13C213907120026C827 /* ApplicationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E0E13B213907120026C827 /* ApplicationStateTests.swift */; };
+		83E7D9382176A14C00DFEAED /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E7D9372176A14C00DFEAED /* CopyLabel.swift */; };
+		83F6F7C8212B4D8900666EB7 /* DropdownDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7C7212B4D8900666EB7 /* DropdownDelegate.swift */; };
+		83F6F7CA212B4DA200666EB7 /* DropDownTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7C9212B4DA200666EB7 /* DropDownTableDelegate.swift */; };
+		83F6F7CD212C961700666EB7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7CC212C961700666EB7 /* NotificationService.swift */; };
+		83F6F7D6212DBE2900666EB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F6F7D8212DBE2900666EB7 /* Localizable.strings */; };
+		83F6F7E2212F8B8F00666EB7 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7E1212F8B8F00666EB7 /* UITextFieldExt.swift */; };
+		83F6F7E6213471AB00666EB7 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7E5213471AB00666EB7 /* CurrencyConverter.swift */; };
+		83F6F7E92134DCC000666EB7 /* LanguageSupport.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83F6F7E82134DCC000666EB7 /* LanguageSupport.plist */; };
+		83F6F7EA2134DCC000666EB7 /* LanguageSupport.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83F6F7E82134DCC000666EB7 /* LanguageSupport.plist */; };
+		83F6F7EC213635AD00666EB7 /* SocketConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0986E21275A8A0015F164 /* SocketConnectionDelegate.swift */; };
+		83F6F7F021372C4000666EB7 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7EF21372C4000666EB7 /* SettingsVC.swift */; };
+		83F6F7F32137365A00666EB7 /* SettingsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7F22137365A00666EB7 /* SettingsTableVC.swift */; };
+		83F6F7F6213741F400666EB7 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7F5213741F400666EB7 /* SettingsCell.swift */; };
+		83F6F7F7213741F400666EB7 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7F5213741F400666EB7 /* SettingsCell.swift */; };
+		83F6F7F92137480000666EB7 /* SettingSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6F7F82137480000666EB7 /* SettingSelectionVC.swift */; };
+		83F6F7FE2138D7AF00666EB7 /* EmailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312F06A20EEBF140078CE47 /* EmailManager.swift */; };
+		83FA581F213B1E93006631F1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FA581E213B1E93006631F1 /* UIViewExt.swift */; };
+		83FA5821213B2454006631F1 /* checkmark-green.json in Resources */ = {isa = PBXBuildFile; fileRef = 83FA5820213B2454006631F1 /* checkmark-green.json */; };
+		83FF58A921112B3100DA6F99 /* MeteorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FF58A821112B3100DA6F99 /* MeteorUITests.swift */; };
+		83FF58B621112B7700DA6F99 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83FF58B321112B7700DA6F99 /* SourceSansPro-Bold.ttf */; };
+		83FF58B721112B7700DA6F99 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83FF58B421112B7700DA6F99 /* SourceSansPro-Light.ttf */; };
+		83FF58B821112B7700DA6F99 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83FF58B521112B7700DA6F99 /* SourceSansPro-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83FF58A021112AAE00DA6F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831E814520DDA9FA005F5271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831E814C20DDA9FA005F5271;
+			remoteInfo = Meteor;
+		};
+		83FF58AB21112B3100DA6F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831E814520DDA9FA005F5271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831E814C20DDA9FA005F5271;
+			remoteInfo = Meteor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26E35C8921B0941B004386DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				26E35C8021B0941A004386DD /* CryptoSwift.framework in Embed Frameworks */,
+				26E35C8821B0941A004386DD /* Starscream.framework in Embed Frameworks */,
+				26E35C8221B0941A004386DD /* Lottie.framework in Embed Frameworks */,
+				26E35C7C21B0941A004386DD /* Alamofire.framework in Embed Frameworks */,
+				26E35C8621B0941A004386DD /* SocketIO.framework in Embed Frameworks */,
+				26E35C8421B0941A004386DD /* NodeMobile.framework in Embed Frameworks */,
+				26E35C7E21B0941A004386DD /* Cache.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		260D88A4217548DC00F6D4D4 /* node */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node; sourceTree = "<group>"; };
+		2633834C21532B1300ECF190 /* zlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zlib; sourceTree = "<group>"; };
+		2636F74A2139B45E0068194B /* MosaicProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicProperties.swift; sourceTree = "<group>"; };
+		2636F74D2139B4A10068194B /* MosaicLevy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicLevy.swift; sourceTree = "<group>"; };
+		2636F7502139B4BC0068194B /* MosaicId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicId.swift; sourceTree = "<group>"; };
+		2636F7562139B5290068194B /* TimeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindow.swift; sourceTree = "<group>"; };
+		2636F7592139B5420068194B /* TransactionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionInfo.swift; sourceTree = "<group>"; };
+		2636F75C2139B5A40068194B /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		2636F75F2139B5C60068194B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2636F7622139B5DD0068194B /* Signer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signer.swift; sourceTree = "<group>"; };
+		2636F7652139B6200068194B /* Xem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xem.swift; sourceTree = "<group>"; };
+		2636F7682139B6410068194B /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		2636F76B2139B83E0068194B /* TimeWindowNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindowNIS1.swift; sourceTree = "<group>"; };
+		2636F76D2139B8A70068194B /* AddressNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressNIS1.swift; sourceTree = "<group>"; };
+		2636F76F2139B8F40068194B /* XemNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XemNIS1.swift; sourceTree = "<group>"; };
+		2636F7712139B9670068194B /* MessageNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageNIS1.swift; sourceTree = "<group>"; };
+		2636F7732139B9C70068194B /* SignerNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignerNIS1.swift; sourceTree = "<group>"; };
+		2636F7752139BA040068194B /* TransactionInfoNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionInfoNIS1.swift; sourceTree = "<group>"; };
+		2636F7772139BC040068194B /* MosaicIdNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicIdNIS1.swift; sourceTree = "<group>"; };
+		2636F7792139C0390068194B /* HashNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashNIS1.swift; sourceTree = "<group>"; };
+		2636F77B2139C2DB0068194B /* MosaicPropertiesNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicPropertiesNIS1.swift; sourceTree = "<group>"; };
+		2636F77D2139C3BE0068194B /* MosaicLevyNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicLevyNIS1.swift; sourceTree = "<group>"; };
+		2637EF9A212BEF9E008A2B39 /* EncryptedPrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedPrivateKey.swift; sourceTree = "<group>"; };
+		264A55292123488900765800 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		266B30FF213CB420000EA1BC /* FilterTransactionNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionNIS1.swift; sourceTree = "<group>"; };
+		266B3101213CB5DE000EA1BC /* FilteredTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredTransaction.swift; sourceTree = "<group>"; };
+		268B66BF2150D65A00A0819F /* Meteor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meteor.entitlements; sourceTree = "<group>"; };
+		26AF2CB5215185F0000B7E67 /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		26B0986E21275A8A0015F164 /* SocketConnectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketConnectionDelegate.swift; sourceTree = "<group>"; };
+		26B314612142618D00162DA2 /* NIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIS.swift; sourceTree = "<group>"; };
+		26C93AD6212F4101000A21B9 /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		26E35C6D21B09413004386DD /* NodeMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NodeMobile.framework; sourceTree = "<group>"; };
+		26E35C6E21B09413004386DD /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lottie.framework; sourceTree = "<group>"; };
+		26E35C6F21B09413004386DD /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketIO.framework; sourceTree = "<group>"; };
+		26E35C7021B09413004386DD /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
+		26E35C7121B09413004386DD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		26E35C7221B09413004386DD /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
+		26E35C7321B09414004386DD /* Cache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cache.framework; sourceTree = "<group>"; };
+		26F531DE21421933009619C7 /* VitalsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalsService.swift; sourceTree = "<group>"; };
+		53501996216F98FE00494C10 /* PinLockStateTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinLockStateTypes.swift; sourceTree = "<group>"; };
+		5350199A21701BAE00494C10 /* PinPadDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPadDisplay.swift; sourceTree = "<group>"; };
+		5350199C217021DE00494C10 /* PinPadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPadButton.swift; sourceTree = "<group>"; };
+		537796D42153136200D20772 /* TransactionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTests.swift; sourceTree = "<group>"; };
+		537796D52153136200D20772 /* MockedCurrencyConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockedCurrencyConverter.swift; sourceTree = "<group>"; };
+		53E9487221477A5900DF875E /* DataExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
+		53FA0D13216AE5E400685F2A /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		53FA0D17216B8D9200685F2A /* PinDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinDisplay.swift; sourceTree = "<group>"; };
+		53FA0D19216BACE900685F2A /* PinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinVC.swift; sourceTree = "<group>"; };
+		53FA0D1D216C302F00685F2A /* DeepLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkTests.swift; sourceTree = "<group>"; };
+		8312F05A20E71F9D0078CE47 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		8312F05E20EC236E0078CE47 /* NewWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWalletVC.swift; sourceTree = "<group>"; };
+		8312F06020EC32410078CE47 /* CreateWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletVC.swift; sourceTree = "<group>"; };
+		8312F06420EC52100078CE47 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8312F06620EEA21B0078CE47 /* BackupWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupWalletVC.swift; sourceTree = "<group>"; };
+		8312F06A20EEBF140078CE47 /* EmailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManager.swift; sourceTree = "<group>"; };
+		831B366721542DCE007B967D /* PrivateKeyModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivateKeyModal.xib; sourceTree = "<group>"; };
+		831B366921542FB6007B967D /* PrivateKeyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKeyModal.swift; sourceTree = "<group>"; };
+		831B366B21543C87007B967D /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		831E814D20DDA9FA005F5271 /* Meteor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meteor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831E815020DDA9FA005F5271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		831E815520DDA9FA005F5271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831E815A20DDA9FB005F5271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		831E815C20DDA9FB005F5271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831E818920E0A024005F5271 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		831E818E20E0A3ED005F5271 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		8346D320211016A000A61FE3 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		8346D32C2110218B00A61FE3 /* AccountNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNIS1.swift; sourceTree = "<group>"; };
+		8346D32F2110283C00A61FE3 /* MosaicNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicNIS1.swift; sourceTree = "<group>"; };
+		8346D3322110284E00A61FE3 /* TransactionNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionNIS1.swift; sourceTree = "<group>"; };
+		8346D3352110285F00A61FE3 /* WalletNIS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletNIS1.swift; sourceTree = "<group>"; };
+		8346FEB221724C44003746F7 /* LocalAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuth.swift; sourceTree = "<group>"; };
+		83540D0721098D0F0028E0A3 /* ImportWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportWalletVC.swift; sourceTree = "<group>"; };
+		83540D0A210A4A520028E0A3 /* nem-to-the-moon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nem-to-the-moon.json"; sourceTree = "<group>"; };
+		835B19DE2138C7B60039FD49 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		835F417620E2C72E00BD0F98 /* WalletHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHomeVC.swift; sourceTree = "<group>"; };
+		835F417820E2CC5D00BD0F98 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		835F417A20E2D57400BD0F98 /* CurrencyDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsVC.swift; sourceTree = "<group>"; };
+		835F417C20E2DF3500BD0F98 /* CurrencyDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailCell.swift; sourceTree = "<group>"; };
+		835F417E20E2EF7900BD0F98 /* TransactionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailVC.swift; sourceTree = "<group>"; };
+		835F418020E3074600BD0F98 /* SendHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHomeVC.swift; sourceTree = "<group>"; };
+		835F418220E319DF00BD0F98 /* SendCurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendCurrencyCell.swift; sourceTree = "<group>"; };
+		835F418620E4234F00BD0F98 /* SendAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendAmountVC.swift; sourceTree = "<group>"; };
+		836052BF2109259400AC194B /* Meteor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meteor-Bridging-Header.h"; sourceTree = "<group>"; };
+		836052C32109263100AC194B /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		836052CA210930A800AC194B /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		836052D72109464300AC194B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		836052D921095FFF00AC194B /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		836052DA21095FFF00AC194B /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		836052DB21095FFF00AC194B /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		836052F42109890400AC194B /* NIS1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIS1Model.swift; sourceTree = "<group>"; };
+		836052F721098B0700AC194B /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		836052FA21098B1C00AC194B /* Mosaic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mosaic.swift; sourceTree = "<group>"; };
+		83605305210A285A00AC194B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		83605308210A32F900AC194B /* mosaics.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mosaics.plist; sourceTree = "<group>"; };
+		8367EECD2146DFF7003A2AEE /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
+		837819A720EEF22600896B0B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		837819AB20FD21C900896B0B /* QRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanner.swift; sourceTree = "<group>"; };
+		837819AE20FD232100896B0B /* CodeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReader.swift; sourceTree = "<group>"; };
+		837819B020FD4D4C00896B0B /* QRPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPreviewView.swift; sourceTree = "<group>"; };
+		837819B320FE54CA00896B0B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		837819B520FE6ED600896B0B /* EmailSentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSentVC.swift; sourceTree = "<group>"; };
+		837819B920FFCE6000896B0B /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		837819C9210168D900896B0B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8385F9A3213A572600A6FFED /* WalletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
+		8392F3C421111CF7004D4530 /* NodeRunner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NodeRunner.mm; sourceTree = "<group>"; };
+		8392F3C521111CF7004D4530 /* NodeRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeRunner.h; sourceTree = "<group>"; };
+		8392F3C9211120B7004D4530 /* CacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTests.swift; sourceTree = "<group>"; };
+		83987EBD211118FC00A555DC /* MeteorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83987EC1211118FD00A555DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B010E9214B08AF00219694 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		83C8AF64213D605A007FE390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E0E13B213907120026C827 /* ApplicationStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStateTests.swift; sourceTree = "<group>"; };
+		83E4E91520E4358A006E7370 /* SendConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendConfirmationVC.swift; sourceTree = "<group>"; };
+		83E4E91720E4443C006E7370 /* ReceiveHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveHomeVC.swift; sourceTree = "<group>"; };
+		83E4E91920E46B3C006E7370 /* SMSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSManager.swift; sourceTree = "<group>"; };
+		83E4E91C20E48CDB006E7370 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		83E4E91E20E48ECA006E7370 /* DeepLinkNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkNavigator.swift; sourceTree = "<group>"; };
+		83E4E92020E490AE006E7370 /* DeepLinkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkParser.swift; sourceTree = "<group>"; };
+		83E4E92220E4A9C8006E7370 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		83E4E92720E5A3AF006E7370 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		83E7D9372176A14C00DFEAED /* CopyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		83E7D9392177CEC000DFEAED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		83E7D93A2177CEC000DFEAED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		83E7D93B2177CEC000DFEAED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		83F6F7C7212B4D8900666EB7 /* DropdownDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownDelegate.swift; sourceTree = "<group>"; };
+		83F6F7C9212B4DA200666EB7 /* DropDownTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownTableDelegate.swift; sourceTree = "<group>"; };
+		83F6F7CC212C961700666EB7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		83F6F7CF212DB35000666EB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		83F6F7D7212DBE2900666EB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83F6F7D9212DBE7300666EB7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		83F6F7DA212DBE7300666EB7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		83F6F7DB212DBE7300666EB7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83F6F7E1212F8B8F00666EB7 /* UITextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		83F6F7E5213471AB00666EB7 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
+		83F6F7E82134DCC000666EB7 /* LanguageSupport.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LanguageSupport.plist; sourceTree = "<group>"; };
+		83F6F7EF21372C4000666EB7 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		83F6F7F22137365A00666EB7 /* SettingsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableVC.swift; sourceTree = "<group>"; };
+		83F6F7F5213741F400666EB7 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		83F6F7F82137480000666EB7 /* SettingSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSelectionVC.swift; sourceTree = "<group>"; };
+		83FA581E213B1E93006631F1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		83FA5820213B2454006631F1 /* checkmark-green.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "checkmark-green.json"; sourceTree = "<group>"; };
+		83FF58A621112B3100DA6F99 /* MeteorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FF58A821112B3100DA6F99 /* MeteorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorUITests.swift; sourceTree = "<group>"; };
+		83FF58AA21112B3100DA6F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FF58B321112B7700DA6F99 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		83FF58B421112B7700DA6F99 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		83FF58B521112B7700DA6F99 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831E814A20DDA9FA005F5271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E35C8721B0941A004386DD /* Starscream.framework in Frameworks */,
+				26E35C7D21B0941A004386DD /* Cache.framework in Frameworks */,
+				26E35C8121B0941A004386DD /* Lottie.framework in Frameworks */,
+				26E35C7F21B0941A004386DD /* CryptoSwift.framework in Frameworks */,
+				26E35C7421B09414004386DD /* NodeMobile.framework in Frameworks */,
+				26E35C8521B0941A004386DD /* SocketIO.framework in Frameworks */,
+				26E35C7B21B0941A004386DD /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83987EBA211118FC00A555DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B19E12138F2E60039FD49 /* (null) in Frameworks */,
+				835B19E22138F2E60039FD49 /* (null) in Frameworks */,
+				835B19E32138F2E60039FD49 /* (null) in Frameworks */,
+				835B19E42138F2E60039FD49 /* (null) in Frameworks */,
+				835B19E52138F2E60039FD49 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FF58A321112B3100DA6F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831B366621542D96007B967D /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				831B366721542DCE007B967D /* PrivateKeyModal.xib */,
+				831B366921542FB6007B967D /* PrivateKeyModal.swift */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		831E814420DDA9FA005F5271 = {
+			isa = PBXGroup;
+			children = (
+				260D88A4217548DC00F6D4D4 /* node */,
+				836052D72109464300AC194B /* README.md */,
+				836052CA210930A800AC194B /* Cartfile */,
+				83FF58A721112B3100DA6F99 /* MeteorUITests */,
+				836052BC2109252100AC194B /* Frameworks */,
+				831E814F20DDA9FA005F5271 /* Meteor */,
+				83987EBE211118FD00A555DC /* MeteorTests */,
+				831E814E20DDA9FA005F5271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831E814E20DDA9FA005F5271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831E814D20DDA9FA005F5271 /* Meteor.app */,
+				83987EBD211118FC00A555DC /* MeteorTests.xctest */,
+				83FF58A621112B3100DA6F99 /* MeteorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831E814F20DDA9FA005F5271 /* Meteor */ = {
+			isa = PBXGroup;
+			children = (
+				268B66BF2150D65A00A0819F /* Meteor.entitlements */,
+				83C8AF64213D605A007FE390 /* Assets.xcassets */,
+				83F6F7D8212DBE2900666EB7 /* Localizable.strings */,
+				83FF58B221112B5E00DA6F99 /* Files */,
+				836052BF2109259400AC194B /* Meteor-Bridging-Header.h */,
+				831E815C20DDA9FB005F5271 /* Info.plist */,
+				83605308210A32F900AC194B /* mosaics.plist */,
+				83F6F7E82134DCC000666EB7 /* LanguageSupport.plist */,
+				831E815020DDA9FA005F5271 /* AppDelegate.swift */,
+				831E818220DF26A4005F5271 /* Controller */,
+				831E818D20E0A3D7005F5271 /* Extensions */,
+				831E815920DDA9FB005F5271 /* LaunchScreen.storyboard */,
+				83540D09210A4A250028E0A3 /* Animations */,
+				831E815420DDA9FA005F5271 /* Main.storyboard */,
+				831E818020DF268E005F5271 /* Model */,
+				83E4E92620E55F0D006E7370 /* Services */,
+				836052E8210967F700AC194B /* NIS */,
+				831E818820E0A00E005F5271 /* Util */,
+				831E818120DF2696005F5271 /* View */,
+			);
+			path = Meteor;
+			sourceTree = "<group>";
+		};
+		831E818020DF268E005F5271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8346D32B2110216900A61FE3 /* NIS1 */,
+				837819AD20FD22F900896B0B /* Protocols */,
+				83F6F7C9212B4DA200666EB7 /* DropDownTableDelegate.swift */,
+				837819AB20FD21C900896B0B /* QRCodeScanner.swift */,
+				836052F721098B0700AC194B /* Account.swift */,
+				836052FA21098B1C00AC194B /* Mosaic.swift */,
+				83605305210A285A00AC194B /* Transaction.swift */,
+				8346D320211016A000A61FE3 /* Wallet.swift */,
+				2637EF9A212BEF9E008A2B39 /* EncryptedPrivateKey.swift */,
+				835B19DE2138C7B60039FD49 /* AppState.swift */,
+				8346FEB221724C44003746F7 /* LocalAuth.swift */,
+				2636F74A2139B45E0068194B /* MosaicProperties.swift */,
+				2636F74D2139B4A10068194B /* MosaicLevy.swift */,
+				2636F7502139B4BC0068194B /* MosaicId.swift */,
+				2636F7562139B5290068194B /* TimeWindow.swift */,
+				2636F7592139B5420068194B /* TransactionInfo.swift */,
+				2636F75C2139B5A40068194B /* Hash.swift */,
+				2636F75F2139B5C60068194B /* Message.swift */,
+				2636F7622139B5DD0068194B /* Signer.swift */,
+				2636F7652139B6200068194B /* Xem.swift */,
+				2636F7682139B6410068194B /* Address.swift */,
+				266B3101213CB5DE000EA1BC /* FilteredTransaction.swift */,
+				26AF2CB5215185F0000B7E67 /* PushNotification.swift */,
+				53501996216F98FE00494C10 /* PinLockStateTypes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		831E818120DF2696005F5271 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				831B366621542D96007B967D /* Xibs */,
+				836052DA21095FFF00AC194B /* Button.swift */,
+				836052D921095FFF00AC194B /* Label.swift */,
+				836052DB21095FFF00AC194B /* ShadowView.swift */,
+				835F417820E2CC5D00BD0F98 /* CurrencyCell.swift */,
+				835F417C20E2DF3500BD0F98 /* CurrencyDetailCell.swift */,
+				835F418220E319DF00BD0F98 /* SendCurrencyCell.swift */,
+				837819B020FD4D4C00896B0B /* QRPreviewView.swift */,
+				83F6F7F5213741F400666EB7 /* SettingsCell.swift */,
+				8385F9A3213A572600A6FFED /* WalletCell.swift */,
+				53FA0D17216B8D9200685F2A /* PinDisplay.swift */,
+				5350199A21701BAE00494C10 /* PinPadDisplay.swift */,
+				53FA0D13216AE5E400685F2A /* PinView.swift */,
+				5350199C217021DE00494C10 /* PinPadButton.swift */,
+				83E7D9372176A14C00DFEAED /* CopyLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		831E818220DF26A4005F5271 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83B010E9214B08AF00219694 /* BaseVC.swift */,
+				835F417620E2C72E00BD0F98 /* WalletHomeVC.swift */,
+				835F417A20E2D57400BD0F98 /* CurrencyDetailsVC.swift */,
+				835F417E20E2EF7900BD0F98 /* TransactionDetailVC.swift */,
+				835F418020E3074600BD0F98 /* SendHomeVC.swift */,
+				835F418620E4234F00BD0F98 /* SendAmountVC.swift */,
+				83E4E91520E4358A006E7370 /* SendConfirmationVC.swift */,
+				83E4E91720E4443C006E7370 /* ReceiveHomeVC.swift */,
+				83E4E92220E4A9C8006E7370 /* RootController.swift */,
+				8312F05E20EC236E0078CE47 /* NewWalletVC.swift */,
+				8312F06020EC32410078CE47 /* CreateWalletVC.swift */,
+				8312F06620EEA21B0078CE47 /* BackupWalletVC.swift */,
+				837819B520FE6ED600896B0B /* EmailSentVC.swift */,
+				83540D0721098D0F0028E0A3 /* ImportWalletVC.swift */,
+				83F6F7EF21372C4000666EB7 /* SettingsVC.swift */,
+				83F6F7F22137365A00666EB7 /* SettingsTableVC.swift */,
+				83F6F7F82137480000666EB7 /* SettingSelectionVC.swift */,
+				53FA0D19216BACE900685F2A /* PinVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		831E818820E0A00E005F5271 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				831E818920E0A024005F5271 /* Constants.swift */,
+				837819B920FFCE6000896B0B /* Validators.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		831E818D20E0A3D7005F5271 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				831E818E20E0A3ED005F5271 /* CALayer.swift */,
+				83E4E92720E5A3AF006E7370 /* Strings.swift */,
+				8312F05A20E71F9D0078CE47 /* Numbers.swift */,
+				8312F06420EC52100078CE47 /* UIViewController.swift */,
+				837819C9210168D900896B0B /* UIColor.swift */,
+				836052C32109263100AC194B /* Thread.swift */,
+				83F6F7E1212F8B8F00666EB7 /* UITextFieldExt.swift */,
+				83FA581E213B1E93006631F1 /* UIViewExt.swift */,
+				8367EECD2146DFF7003A2AEE /* UILabelExt.swift */,
+				53E9487221477A5900DF875E /* DataExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8346D32B2110216900A61FE3 /* NIS1 */ = {
+			isa = PBXGroup;
+			children = (
+				836052F42109890400AC194B /* NIS1Model.swift */,
+				8346D32C2110218B00A61FE3 /* AccountNIS1.swift */,
+				8346D32F2110283C00A61FE3 /* MosaicNIS1.swift */,
+				8346D3322110284E00A61FE3 /* TransactionNIS1.swift */,
+				8346D3352110285F00A61FE3 /* WalletNIS1.swift */,
+				2636F76B2139B83E0068194B /* TimeWindowNIS1.swift */,
+				2636F76D2139B8A70068194B /* AddressNIS1.swift */,
+				2636F76F2139B8F40068194B /* XemNIS1.swift */,
+				2636F7712139B9670068194B /* MessageNIS1.swift */,
+				2636F7732139B9C70068194B /* SignerNIS1.swift */,
+				2636F7752139BA040068194B /* TransactionInfoNIS1.swift */,
+				2636F7772139BC040068194B /* MosaicIdNIS1.swift */,
+				2636F7792139C0390068194B /* HashNIS1.swift */,
+				2636F77B2139C2DB0068194B /* MosaicPropertiesNIS1.swift */,
+				2636F77D2139C3BE0068194B /* MosaicLevyNIS1.swift */,
+				266B30FF213CB420000EA1BC /* FilterTransactionNIS1.swift */,
+			);
+			path = NIS1;
+			sourceTree = "<group>";
+		};
+		83540D09210A4A250028E0A3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				83FA5820213B2454006631F1 /* checkmark-green.json */,
+				83540D0A210A4A520028E0A3 /* nem-to-the-moon.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		836052BC2109252100AC194B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E35C7121B09413004386DD /* Alamofire.framework */,
+				26E35C7321B09414004386DD /* Cache.framework */,
+				26E35C7221B09413004386DD /* CryptoSwift.framework */,
+				26E35C6E21B09413004386DD /* Lottie.framework */,
+				26E35C6D21B09413004386DD /* NodeMobile.framework */,
+				26E35C6F21B09413004386DD /* SocketIO.framework */,
+				26E35C7021B09413004386DD /* Starscream.framework */,
+				2633834C21532B1300ECF190 /* zlib */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		836052E8210967F700AC194B /* NIS */ = {
+			isa = PBXGroup;
+			children = (
+				8392F3C521111CF7004D4530 /* NodeRunner.h */,
+				8392F3C421111CF7004D4530 /* NodeRunner.mm */,
+				26B314612142618D00162DA2 /* NIS.swift */,
+			);
+			path = NIS;
+			sourceTree = "<group>";
+		};
+		837819AD20FD22F900896B0B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				83F6F7C7212B4D8900666EB7 /* DropdownDelegate.swift */,
+				837819AE20FD232100896B0B /* CodeReader.swift */,
+				26B0986E21275A8A0015F164 /* SocketConnectionDelegate.swift */,
+				26C93AD6212F4101000A21B9 /* Serializable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		837819B220FE549800896B0B /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				837819B320FE54CA00896B0B /* Alerts.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		83987EBE211118FD00A555DC /* MeteorTests */ = {
+			isa = PBXGroup;
+			children = (
+				537796D52153136200D20772 /* MockedCurrencyConverter.swift */,
+				537796D42153136200D20772 /* TransactionTests.swift */,
+				83987EC1211118FD00A555DC /* Info.plist */,
+				8392F3C9211120B7004D4530 /* CacheTests.swift */,
+				83E0E13B213907120026C827 /* ApplicationStateTests.swift */,
+				53FA0D1D216C302F00685F2A /* DeepLinkTests.swift */,
+			);
+			path = MeteorTests;
+			sourceTree = "<group>";
+		};
+		83E4E92620E55F0D006E7370 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				837819B220FE549800896B0B /* Alerts */,
+				83E4E91920E46B3C006E7370 /* SMSManager.swift */,
+				83E4E91C20E48CDB006E7370 /* DeepLinkManager.swift */,
+				83E4E91E20E48ECA006E7370 /* DeepLinkNavigator.swift */,
+				83E4E92020E490AE006E7370 /* DeepLinkParser.swift */,
+				8312F06A20EEBF140078CE47 /* EmailManager.swift */,
+				837819A720EEF22600896B0B /* Helpers.swift */,
+				264A55292123488900765800 /* SocketService.swift */,
+				83F6F7CC212C961700666EB7 /* NotificationService.swift */,
+				83F6F7E5213471AB00666EB7 /* CurrencyConverter.swift */,
+				26F531DE21421933009619C7 /* VitalsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		83FF58A721112B3100DA6F99 /* MeteorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83FF58A821112B3100DA6F99 /* MeteorUITests.swift */,
+				83FF58AA21112B3100DA6F99 /* Info.plist */,
+			);
+			path = MeteorUITests;
+			sourceTree = "<group>";
+		};
+		83FF58B221112B5E00DA6F99 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				831B366B21543C87007B967D /* SourceSansPro-Italic.ttf */,
+				83FF58B321112B7700DA6F99 /* SourceSansPro-Bold.ttf */,
+				83FF58B421112B7700DA6F99 /* SourceSansPro-Light.ttf */,
+				83FF58B521112B7700DA6F99 /* SourceSansPro-Regular.ttf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831E814C20DDA9FA005F5271 /* Meteor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831E817520DDA9FB005F5271 /* Build configuration list for PBXNativeTarget "Meteor" */;
+			buildPhases = (
+				831E814920DDA9FA005F5271 /* Sources */,
+				831E814A20DDA9FA005F5271 /* Frameworks */,
+				831E814B20DDA9FA005F5271 /* Resources */,
+				26E35C8921B0941B004386DD /* Embed Frameworks */,
+				838987CD213B524400ACC95D /* ShellScript */,
+				838987BB213B211700ACC95D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meteor;
+			productName = Meteor;
+			productReference = 831E814D20DDA9FA005F5271 /* Meteor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83987EBC211118FC00A555DC /* MeteorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83987EC4211118FD00A555DC /* Build configuration list for PBXNativeTarget "MeteorTests" */;
+			buildPhases = (
+				83987EB9211118FC00A555DC /* Sources */,
+				83987EBA211118FC00A555DC /* Frameworks */,
+				83987EBB211118FC00A555DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83FF58A121112AAE00DA6F99 /* PBXTargetDependency */,
+			);
+			name = MeteorTests;
+			productName = MeteorTests;
+			productReference = 83987EBD211118FC00A555DC /* MeteorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83FF58A521112B3100DA6F99 /* MeteorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FF58AD21112B3100DA6F99 /* Build configuration list for PBXNativeTarget "MeteorUITests" */;
+			buildPhases = (
+				83FF58A221112B3100DA6F99 /* Sources */,
+				83FF58A321112B3100DA6F99 /* Frameworks */,
+				83FF58A421112B3100DA6F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83FF58AC21112B3100DA6F99 /* PBXTargetDependency */,
+			);
+			name = MeteorUITests;
+			productName = MeteorUITests;
+			productReference = 83FF58A621112B3100DA6F99 /* MeteorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831E814520DDA9FA005F5271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Devslopes;
+				TargetAttributes = {
+					831E814C20DDA9FA005F5271 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+					83987EBC211118FC00A555DC = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						TestTargetID = 831E814C20DDA9FA005F5271;
+					};
+					83FF58A521112B3100DA6F99 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 831E814C20DDA9FA005F5271;
+					};
+				};
+			};
+			buildConfigurationList = 831E814820DDA9FA005F5271 /* Build configuration list for PBXProject "Meteor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				"zh-Hans",
+			);
+			mainGroup = 831E814420DDA9FA005F5271;
+			productRefGroup = 831E814E20DDA9FA005F5271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831E814C20DDA9FA005F5271 /* Meteor */,
+				83987EBC211118FC00A555DC /* MeteorTests */,
+				83FF58A521112B3100DA6F99 /* MeteorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831E814B20DDA9FA005F5271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260D88A5217548DC00F6D4D4 /* node in Resources */,
+				8392F38921111A32004D4530 /* Cartfile in Resources */,
+				831B366C21543C87007B967D /* SourceSansPro-Italic.ttf in Resources */,
+				83F6F7D6212DBE2900666EB7 /* Localizable.strings in Resources */,
+				83540D0B210A4A520028E0A3 /* nem-to-the-moon.json in Resources */,
+				83FA5821213B2454006631F1 /* checkmark-green.json in Resources */,
+				83F6F7E92134DCC000666EB7 /* LanguageSupport.plist in Resources */,
+				831B366821542DCE007B967D /* PrivateKeyModal.xib in Resources */,
+				83FF58B621112B7700DA6F99 /* SourceSansPro-Bold.ttf in Resources */,
+				83FF58B721112B7700DA6F99 /* SourceSansPro-Light.ttf in Resources */,
+				83C8AF65213D605A007FE390 /* Assets.xcassets in Resources */,
+				831E815B20DDA9FB005F5271 /* LaunchScreen.storyboard in Resources */,
+				83FF58B821112B7700DA6F99 /* SourceSansPro-Regular.ttf in Resources */,
+				831E815620DDA9FA005F5271 /* Main.storyboard in Resources */,
+				83605309210A32F900AC194B /* mosaics.plist in Resources */,
+				2633834D21532B1300ECF190 /* zlib in Resources */,
+				836052D82109464300AC194B /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83987EBB211118FC00A555DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F6F7EA2134DCC000666EB7 /* LanguageSupport.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FF58A421112B3100DA6F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		838987BB213B211700ACC95D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Target architectures: $ARCHS\"\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\nFRAMEWORK_TMP_PATH=\"$FRAMEWORK_EXECUTABLE_PATH-tmp\"\n\n# remove simulator's archs if location is not simulator's directory\ncase \"${TARGET_BUILD_DIR}\" in\n*\"iphonesimulator\")\necho \"No need to remove archs\"\n;;\n*)\nif $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"i386\") ; then\nlipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"i386\" \"$FRAMEWORK_EXECUTABLE_PATH\"\necho \"i386 architecture removed\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nfi\nif $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"x86_64\") ; then\nlipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"x86_64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\necho \"x86_64 architecture removed\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nfi\n;;\nesac\n\necho \"Completed for executable $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\ndone\n";
+		};
+		838987CD213B524400ACC95D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/node/bundle.js",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if [ -e node/bundle.js ]\n#then\n#rm node/bundle.js\n#fi\n#cd \"${SRCROOT}/nem-meteor-wallet-api\"\n\n# Temporary fix for uws error\n#rm node_modules/engine.io/lib/server.js\n#cp config/server.js node_modules/engine.io/lib/server.js\n\n#npm run start\n#mv dist/bundle.js ../node/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831E814920DDA9FA005F5271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2636F77E2139C3BE0068194B /* MosaicLevyNIS1.swift in Sources */,
+				8392F38B21111AE1004D4530 /* AppDelegate.swift in Sources */,
+				2636F75D2139B5A40068194B /* Hash.swift in Sources */,
+				2636F75A2139B5420068194B /* TransactionInfo.swift in Sources */,
+				8392F38D21111AE1004D4530 /* WalletHomeVC.swift in Sources */,
+				8392F38E21111AE1004D4530 /* CurrencyDetailsVC.swift in Sources */,
+				83F6F7F32137365A00666EB7 /* SettingsTableVC.swift in Sources */,
+				8346FEB321724C44003746F7 /* LocalAuth.swift in Sources */,
+				264A552A2123488900765800 /* SocketService.swift in Sources */,
+				2636F7702139B8F40068194B /* XemNIS1.swift in Sources */,
+				8392F38F21111AE1004D4530 /* TransactionDetailVC.swift in Sources */,
+				2636F77C2139C2DB0068194B /* MosaicPropertiesNIS1.swift in Sources */,
+				266B3100213CB420000EA1BC /* FilterTransactionNIS1.swift in Sources */,
+				2636F77A2139C0390068194B /* HashNIS1.swift in Sources */,
+				2636F74B2139B45E0068194B /* MosaicProperties.swift in Sources */,
+				2636F76C2139B83E0068194B /* TimeWindowNIS1.swift in Sources */,
+				8392F39021111AE1004D4530 /* SendHomeVC.swift in Sources */,
+				8392F39121111AE1004D4530 /* SendAmountVC.swift in Sources */,
+				26AF2CB6215185F0000B7E67 /* PushNotification.swift in Sources */,
+				26B314622142618D00162DA2 /* NIS.swift in Sources */,
+				2636F7762139BA040068194B /* TransactionInfoNIS1.swift in Sources */,
+				8392F39221111AE1004D4530 /* SendConfirmationVC.swift in Sources */,
+				8392F39321111AE1004D4530 /* ReceiveHomeVC.swift in Sources */,
+				8392F39421111AE1004D4530 /* RootController.swift in Sources */,
+				83F6F7E6213471AB00666EB7 /* CurrencyConverter.swift in Sources */,
+				2636F7662139B6200068194B /* Xem.swift in Sources */,
+				83F6F7C8212B4D8900666EB7 /* DropdownDelegate.swift in Sources */,
+				2636F7722139B9670068194B /* MessageNIS1.swift in Sources */,
+				8392F39521111AE1004D4530 /* NewWalletVC.swift in Sources */,
+				8392F39621111AE1004D4530 /* CreateWalletVC.swift in Sources */,
+				83F6F7CA212B4DA200666EB7 /* DropDownTableDelegate.swift in Sources */,
+				83F6F7E2212F8B8F00666EB7 /* UITextFieldExt.swift in Sources */,
+				26B0986F21275A8A0015F164 /* SocketConnectionDelegate.swift in Sources */,
+				53501997216F98FE00494C10 /* PinLockStateTypes.swift in Sources */,
+				8392F39721111AE1004D4530 /* BackupWalletVC.swift in Sources */,
+				8392F39821111AE1004D4530 /* EmailSentVC.swift in Sources */,
+				8392F39921111AE1004D4530 /* ImportWalletVC.swift in Sources */,
+				5350199B21701BAE00494C10 /* PinPadDisplay.swift in Sources */,
+				8392F39B21111AE1004D4530 /* CALayer.swift in Sources */,
+				8392F39C21111AE1004D4530 /* Strings.swift in Sources */,
+				2636F7742139B9C70068194B /* SignerNIS1.swift in Sources */,
+				53FA0D1A216BACE900685F2A /* PinVC.swift in Sources */,
+				8392F39D21111AE1004D4530 /* Numbers.swift in Sources */,
+				8367EECE2146DFF7003A2AEE /* UILabelExt.swift in Sources */,
+				83F6F7CD212C961700666EB7 /* NotificationService.swift in Sources */,
+				8392F39E21111AE1004D4530 /* UIViewController.swift in Sources */,
+				835B19DF2138C7B60039FD49 /* AppState.swift in Sources */,
+				2636F7572139B5290068194B /* TimeWindow.swift in Sources */,
+				8392F39F21111AE1004D4530 /* UIColor.swift in Sources */,
+				8392F3A021111AE1004D4530 /* Thread.swift in Sources */,
+				8392F3A121111AE1004D4530 /* NIS1Model.swift in Sources */,
+				2636F76E2139B8A70068194B /* AddressNIS1.swift in Sources */,
+				8392F3A221111AE1004D4530 /* AccountNIS1.swift in Sources */,
+				8385F9A4213A572600A6FFED /* WalletCell.swift in Sources */,
+				8392F3A321111AE1004D4530 /* MosaicNIS1.swift in Sources */,
+				53FA0D18216B8D9200685F2A /* PinDisplay.swift in Sources */,
+				8392F3A421111AE1004D4530 /* TransactionNIS1.swift in Sources */,
+				2636F7602139B5C60068194B /* Message.swift in Sources */,
+				8392F3A521111AE1004D4530 /* WalletNIS1.swift in Sources */,
+				2636F74E2139B4A10068194B /* MosaicLevy.swift in Sources */,
+				8392F3A621111AE1004D4530 /* CodeReader.swift in Sources */,
+				53FA0D14216AE5E500685F2A /* PinView.swift in Sources */,
+				8392F3A921111AE1004D4530 /* QRCodeScanner.swift in Sources */,
+				8392F3AA21111AE1004D4530 /* Account.swift in Sources */,
+				83B010EA214B08AF00219694 /* BaseVC.swift in Sources */,
+				8392F3AB21111AE1004D4530 /* Mosaic.swift in Sources */,
+				26C93AD7212F4101000A21B9 /* Serializable.swift in Sources */,
+				8392F3AC21111AE1004D4530 /* Transaction.swift in Sources */,
+				26F531DF21421933009619C7 /* VitalsService.swift in Sources */,
+				831B366A21542FB6007B967D /* PrivateKeyModal.swift in Sources */,
+				8392F3AD21111AE1004D4530 /* Wallet.swift in Sources */,
+				83FA581F213B1E93006631F1 /* UIViewExt.swift in Sources */,
+				2636F7692139B6410068194B /* Address.swift in Sources */,
+				8392F3AF21111AE1004D4530 /* Alerts.swift in Sources */,
+				8392F3B021111AE1004D4530 /* SMSManager.swift in Sources */,
+				53E9487321477A5900DF875E /* DataExt.swift in Sources */,
+				8392F3B121111AE1004D4530 /* DeepLinkManager.swift in Sources */,
+				8392F3B221111AE1004D4530 /* DeepLinkNavigator.swift in Sources */,
+				8392F3B321111AE1004D4530 /* DeepLinkParser.swift in Sources */,
+				266B3102213CB5DE000EA1BC /* FilteredTransaction.swift in Sources */,
+				8392F3B421111AE1004D4530 /* EmailManager.swift in Sources */,
+				2636F7512139B4BC0068194B /* MosaicId.swift in Sources */,
+				8392F3B521111AE1004D4530 /* Helpers.swift in Sources */,
+				83F6F7F021372C4000666EB7 /* SettingsVC.swift in Sources */,
+				8392F3C621111CF7004D4530 /* NodeRunner.mm in Sources */,
+				8392F3B621111AE1004D4530 /* Constants.swift in Sources */,
+				8392F3B721111AE1004D4530 /* Validators.swift in Sources */,
+				8392F3B821111AE1004D4530 /* Button.swift in Sources */,
+				8392F3B921111AE1004D4530 /* Label.swift in Sources */,
+				8392F3BA21111AE1004D4530 /* ShadowView.swift in Sources */,
+				8392F3BC21111AE1004D4530 /* CurrencyCell.swift in Sources */,
+				83F6F7F92137480000666EB7 /* SettingSelectionVC.swift in Sources */,
+				8392F3BD21111AE1004D4530 /* CurrencyDetailCell.swift in Sources */,
+				5350199D217021DE00494C10 /* PinPadButton.swift in Sources */,
+				8392F3BE21111AE1004D4530 /* SendCurrencyCell.swift in Sources */,
+				2637EF9B212BEF9E008A2B39 /* EncryptedPrivateKey.swift in Sources */,
+				83E7D9382176A14C00DFEAED /* CopyLabel.swift in Sources */,
+				2636F7632139B5DD0068194B /* Signer.swift in Sources */,
+				8392F3BF21111AE1004D4530 /* QRPreviewView.swift in Sources */,
+				83F6F7F6213741F400666EB7 /* SettingsCell.swift in Sources */,
+				2636F7782139BC050068194B /* MosaicIdNIS1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83987EB9211118FC00A555DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838817532163CB30005EC392 /* MosaicNIS1.swift in Sources */,
+				261FDCB22164942400EF3329 /* TimeWindowNIS1.swift in Sources */,
+				838817552163CB7C005EC392 /* MosaicPropertiesNIS1.swift in Sources */,
+				5377969B2152E9C500D20772 /* (null) in Sources */,
+				83F6F7FE2138D7AF00666EB7 /* EmailManager.swift in Sources */,
+				537796D72153136300D20772 /* MockedCurrencyConverter.swift in Sources */,
+				261FDCB72164944E00EF3329 /* TransactionInfoNIS1.swift in Sources */,
+				537796982152CFFC00D20772 /* CurrencyConverter.swift in Sources */,
+				83F6F7EC213635AD00666EB7 /* SocketConnectionDelegate.swift in Sources */,
+				26A91FCF215B06E600D7DAE6 /* PrivateKeyModal.swift in Sources */,
+				26AF2CB821518AE0000B7E67 /* NIS1Model.swift in Sources */,
+				838817512163CAC8005EC392 /* PushNotification.swift in Sources */,
+				83F6F7F7213741F400666EB7 /* SettingsCell.swift in Sources */,
+				537796992152D06300D20772 /* Constants.swift in Sources */,
+				261FDCB42164943700EF3329 /* XemNIS1.swift in Sources */,
+				835B19FF2139032E0039FD49 /* Serializable.swift in Sources */,
+				261FDCB12164915500EF3329 /* TransactionNIS1.swift in Sources */,
+				2636F7672139B6200068194B /* Xem.swift in Sources */,
+				2636F7612139B5C60068194B /* Message.swift in Sources */,
+				53FA0D1F216C308700685F2A /* DeepLinkManager.swift in Sources */,
+				261FDCB021648ECB00EF3329 /* FilteredTransaction.swift in Sources */,
+				261FDCB52164944000EF3329 /* MessageNIS1.swift in Sources */,
+				537796932152BCAF00D20772 /* Strings.swift in Sources */,
+				835B19FD213902BE0039FD49 /* Account.swift in Sources */,
+				835B19FA2138FD010039FD49 /* CacheTests.swift in Sources */,
+				2636F74C2139B46F0068194B /* MosaicProperties.swift in Sources */,
+				835B19FB213902A00039FD49 /* Mosaic.swift in Sources */,
+				53FA0D1E216C302F00685F2A /* DeepLinkTests.swift in Sources */,
+				835B19FC213902A50039FD49 /* Transaction.swift in Sources */,
+				2636F75B2139B5420068194B /* TransactionInfo.swift in Sources */,
+				2636F75E2139B5A40068194B /* Hash.swift in Sources */,
+				2636F7582139B5290068194B /* TimeWindow.swift in Sources */,
+				2636F7522139B4BC0068194B /* MosaicId.swift in Sources */,
+				261FDCB62164944700EF3329 /* SignerNIS1.swift in Sources */,
+				2636F76A2139B6410068194B /* Address.swift in Sources */,
+				838817502163CA8C005EC392 /* AppState.swift in Sources */,
+				26A91FD1215B072600D7DAE6 /* UIColor.swift in Sources */,
+				835B1A00213903750039FD49 /* EncryptedPrivateKey.swift in Sources */,
+				83E0E13C213907120026C827 /* ApplicationStateTests.swift in Sources */,
+				838817522163CB0A005EC392 /* AccountNIS1.swift in Sources */,
+				2636F7642139B5DD0068194B /* Signer.swift in Sources */,
+				537796D62153136300D20772 /* TransactionTests.swift in Sources */,
+				26A91FCC215B053500D7DAE6 /* DataExt.swift in Sources */,
+				838817542163CB5F005EC392 /* MosaicIdNIS1.swift in Sources */,
+				53FA0D23216C3C4100685F2A /* DeepLinkNavigator.swift in Sources */,
+				53FA0D22216C3BE700685F2A /* HashNIS1.swift in Sources */,
+				261FDCB32164943000EF3329 /* AddressNIS1.swift in Sources */,
+				53FA0D24216C3C4500685F2A /* RootController.swift in Sources */,
+				53FA0D20216C30A200685F2A /* DeepLinkParser.swift in Sources */,
+				261FDCAF21648EC500EF3329 /* FilterTransactionNIS1.swift in Sources */,
+				2636F74F2139B4A10068194B /* MosaicLevy.swift in Sources */,
+				53E94871214219D000DF875E /* (null) in Sources */,
+				26A91FCA215B050900D7DAE6 /* Wallet.swift in Sources */,
+				267F903C2164AB9800694A46 /* WalletNIS1.swift in Sources */,
+				838817562163CBA6005EC392 /* MosaicLevyNIS1.swift in Sources */,
+				537796972152CFDD00D20772 /* Numbers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FF58A221112B3100DA6F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FF58A921112B3100DA6F99 /* MeteorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83FF58A121112AAE00DA6F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831E814C20DDA9FA005F5271 /* Meteor */;
+			targetProxy = 83FF58A021112AAE00DA6F99 /* PBXContainerItemProxy */;
+		};
+		83FF58AC21112B3100DA6F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831E814C20DDA9FA005F5271 /* Meteor */;
+			targetProxy = 83FF58AB21112B3100DA6F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		831E815420DDA9FA005F5271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831E815520DDA9FA005F5271 /* Base */,
+				83F6F7CF212DB35000666EB7 /* en */,
+				83F6F7DA212DBE7300666EB7 /* ja */,
+				83E7D93A2177CEC000DFEAED /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		831E815920DDA9FB005F5271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831E815A20DDA9FB005F5271 /* Base */,
+				83F6F7D9212DBE7300666EB7 /* ja */,
+				83E7D9392177CEC000DFEAED /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		83F6F7D8212DBE2900666EB7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F6F7D7212DBE2900666EB7 /* en */,
+				83F6F7DB212DBE7300666EB7 /* ja */,
+				83E7D93B2177CEC000DFEAED /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831E817320DDA9FB005F5271 /* NIS1 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DNIS1";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = "NIS1 Debug";
+		};
+		831E817420DDA9FB005F5271 /* NIS1 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DNIS1";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS1 Release";
+		};
+		831E817620DDA9FB005F5271 /* NIS1 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CODE_SIGN_ENTITLEMENTS = Meteor/Meteor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/libnode",
+				);
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = Meteor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DNIS1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.meteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Frameworks/zlib/";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meteor/Meteor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "NIS1 Debug";
+		};
+		831E817720DDA9FB005F5271 /* NIS1 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CODE_SIGN_ENTITLEMENTS = Meteor/Meteor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/libnode",
+				);
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = Meteor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DNIS1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.meteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Frameworks/zlib/";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meteor/Meteor-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "NIS1 Release";
+		};
+		8346D3232110209300A61FE3 /* NIS2 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DNIS2";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = "NIS2 Debug";
+		};
+		8346D3242110209300A61FE3 /* NIS2 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CODE_SIGN_ENTITLEMENTS = Meteor/Meteor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/libnode",
+				);
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = Meteor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DNIS2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.meteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Frameworks/zlib/";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meteor/Meteor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "NIS2 Debug";
+		};
+		8346D327211020A000A61FE3 /* NIS2 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DNIS2";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS2 Release";
+		};
+		8346D328211020A000A61FE3 /* NIS2 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CODE_SIGN_ENTITLEMENTS = Meteor/Meteor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/libnode",
+				);
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = Meteor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DNIS2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.meteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Frameworks/zlib/";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meteor/Meteor-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "NIS2 Release";
+		};
+		83987EC5211118FD00A555DC /* NIS1 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteor.app/Meteor";
+			};
+			name = "NIS1 Debug";
+		};
+		83987EC6211118FD00A555DC /* NIS2 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteor.app/Meteor";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS2 Debug";
+		};
+		83987EC7211118FD00A555DC /* NIS1 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-DNIS1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteor.app/Meteor";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS1 Release";
+		};
+		83987EC8211118FD00A555DC /* NIS2 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteor.app/Meteor";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS2 Release";
+		};
+		83FF58AE21112B3100DA6F99 /* NIS1 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meteor;
+			};
+			name = "NIS1 Debug";
+		};
+		83FF58AF21112B3100DA6F99 /* NIS2 Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meteor;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS2 Debug";
+		};
+		83FF58B021112B3100DA6F99 /* NIS1 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meteor;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS1 Release";
+		};
+		83FF58B121112B3100DA6F99 /* NIS2 Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUW936ZHH8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MeteorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockstart.meteor.MeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meteor;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "NIS2 Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831E814820DDA9FA005F5271 /* Build configuration list for PBXProject "Meteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831E817320DDA9FB005F5271 /* NIS1 Debug */,
+				8346D3232110209300A61FE3 /* NIS2 Debug */,
+				831E817420DDA9FB005F5271 /* NIS1 Release */,
+				8346D327211020A000A61FE3 /* NIS2 Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "NIS1 Release";
+		};
+		831E817520DDA9FB005F5271 /* Build configuration list for PBXNativeTarget "Meteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831E817620DDA9FB005F5271 /* NIS1 Debug */,
+				8346D3242110209300A61FE3 /* NIS2 Debug */,
+				831E817720DDA9FB005F5271 /* NIS1 Release */,
+				8346D328211020A000A61FE3 /* NIS2 Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "NIS1 Release";
+		};
+		83987EC4211118FD00A555DC /* Build configuration list for PBXNativeTarget "MeteorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83987EC5211118FD00A555DC /* NIS1 Debug */,
+				83987EC6211118FD00A555DC /* NIS2 Debug */,
+				83987EC7211118FD00A555DC /* NIS1 Release */,
+				83987EC8211118FD00A555DC /* NIS2 Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "NIS1 Release";
+		};
+		83FF58AD21112B3100DA6F99 /* Build configuration list for PBXNativeTarget "MeteorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FF58AE21112B3100DA6F99 /* NIS1 Debug */,
+				83FF58AF21112B3100DA6F99 /* NIS2 Debug */,
+				83FF58B021112B3100DA6F99 /* NIS1 Release */,
+				83FF58B121112B3100DA6F99 /* NIS2 Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "NIS1 Release";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831E814520DDA9FA005F5271 /* Project object */;
+}

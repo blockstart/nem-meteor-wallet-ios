@@ -1,0 +1,363 @@
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "0Ab-op-f5x"; */
+"0Ab-op-f5x.title" = " ";
+
+/* Class = "UILabel"; text = "Show Private Key"; ObjectID = "0NE-rD-pEE"; */
+"0NE-rD-pEE.text" = "Show Private Key";
+
+/* Class = "UILabel"; text = "Current XEM Price (USD)"; ObjectID = "0gF-8F-gTG"; */
+"0gF-8F-gTG.text" = "Current XEM Price (USD)";
+
+/* Class = "UITextField"; placeholder = "Enter wallet address"; ObjectID = "0yM-4c-vrv"; */
+"0yM-4c-vrv.placeholder" = "Enter wallet address";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "10V-Y7-qA9"; */
+"10V-Y7-qA9.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Send, receive, & manage"; ObjectID = "1Lk-Xg-zjM"; */
+"1Lk-Xg-zjM.text" = "Send, receive, & manage";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1nI-bD-Ivi"; */
+"1nI-bD-Ivi.text" = "Label";
+
+/* Class = "UILabel"; text = "Enable Pin Login"; ObjectID = "2DW-d7-1Uc"; */
+"2DW-d7-1Uc.text" = "Enable Pin Login";
+
+/* Class = "UINavigationItem"; title = "Currency"; ObjectID = "2ip-2b-BtY"; */
+"2ip-2b-BtY.title" = "Currency";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "3EF-pM-OOS"; */
+"3EF-pM-OOS.normalTitle" = "2";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "3pb-hj-9Hh"; */
+"3pb-hj-9Hh.title" = " ";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "5Ey-PL-JA5"; */
+"5Ey-PL-JA5.text" = "-";
+
+/* Class = "UILabel"; text = "An email has been sent to myemail@email.com."; ObjectID = "5wy-kF-2li"; */
+"5wy-kF-2li.text" = "An email has been sent to myemail@email.com.";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "6ZC-D1-2x6"; */
+"6ZC-D1-2x6.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "your cryptocurrencies built on NEM"; ObjectID = "6md-S7-Wi5"; */
+"6md-S7-Wi5.text" = "your cryptocurrencies built on NEM";
+
+/* Class = "UILabel"; text = "($0.00 USD)"; ObjectID = "87m-4Q-jRR"; */
+"87m-4Q-jRR.text" = "($0.00 USD)";
+
+/* Class = "UILabel"; text = "Main Net"; ObjectID = "9ME-4Y-v33"; */
+"9ME-4Y-v33.text" = "Main Net";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "AKc-a3-Vjd"; */
+"AKc-a3-Vjd.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "View on explorer"; ObjectID = "AbY-Z1-WHw"; */
+"AbY-Z1-WHw.normalTitle" = "View on explorer";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "B85-MM-U9D"; */
+"B85-MM-U9D.title" = " ";
+
+/* Class = "UILabel"; text = "How to use Meteor Wallet"; ObjectID = "BVf-zM-yFU"; */
+"BVf-zM-yFU.text" = "How to use Meteor Wallet";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "BzI-FR-QKQ"; */
+"BzI-FR-QKQ.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Or import an existing wallet here"; ObjectID = "D3O-Pf-MKT"; */
+"D3O-Pf-MKT.normalTitle" = "Or import an existing wallet here";
+
+/* Class = "UIButton"; normalTitle = "I'll do this later"; ObjectID = "EeJ-08-76q"; */
+"EeJ-08-76q.normalTitle" = "I'll do this later";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "FS5-KU-Ihx"; */
+"FS5-KU-Ihx.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "This contains a QR code that you can use to re-import your wallet if needed."; ObjectID = "HYR-aK-Ie7"; */
+"HYR-aK-Ie7.text" = "This contains a QR code that you can use to re-import your wallet if needed.";
+
+/* Class = "UILabel"; text = "Received"; ObjectID = "Hdt-aZ-p11"; */
+"Hdt-aZ-p11.text" = "Received";
+
+/* Class = "UINavigationItem"; title = "Transactions"; ObjectID = "HqX-pX-lpx"; */
+"HqX-pX-lpx.title" = "Transactions";
+
+/* Class = "UILabel"; text = "No Mosaics"; ObjectID = "JEF-Dy-76E"; */
+"JEF-Dy-76E.text" = "No Mosaics";
+
+/* Class = "UILabel"; text = "- to:"; ObjectID = "JoT-qc-ngb"; */
+"JoT-qc-ngb.text" = "- to:";
+
+/* Class = "UILabel"; text = "No Transactions"; ObjectID = "Jto-vI-gTB"; */
+"Jto-vI-gTB.text" = "No Transactions";
+
+/* Class = "UILabel"; text = "$ 0.00"; ObjectID = "L9g-yL-u6t"; */
+"L9g-yL-u6t.text" = "$ 0.00";
+
+/* Class = "UITabBarItem"; title = "Send"; ObjectID = "Lhh-PG-dGp"; */
+"Lhh-PG-dGp.title" = "Send";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Lnr-rN-I3R"; */
+"Lnr-rN-I3R.text" = "-";
+
+/* Class = "UILabel"; text = "Bad Address"; ObjectID = "LtW-KY-OCR"; */
+"LtW-KY-OCR.text" = "Bad Address";
+
+/* Class = "UILabel"; text = "cryptoclip"; ObjectID = "MPU-Ct-p5K"; */
+"MPU-Ct-p5K.text" = "cryptoclip";
+
+/* Class = "UILabel"; text = "Scan to Import"; ObjectID = "MRU-Wk-NXx"; */
+"MRU-Wk-NXx.text" = "Scan to Import";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "NOd-CE-ohQ"; */
+"NOd-CE-ohQ.text" = "-";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "NTb-QH-7CH"; */
+"NTb-QH-7CH.text" = "From:";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "OSJ-PV-co3"; */
+"OSJ-PV-co3.text" = "Language";
+
+/* Class = "UILabel"; text = "Message (Optional):"; ObjectID = "QNy-pd-Gtp"; */
+"QNy-pd-Gtp.text" = "Message (Optional):";
+
+/* Class = "UITabBarItem"; title = "Receive"; ObjectID = "QvD-Vw-F6A"; */
+"QvD-Vw-F6A.title" = "Receive";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "R2Q-q3-nq2"; */
+"R2Q-q3-nq2.normalTitle" = "6";
+
+/* Class = "UILabel"; text = "Send Feedback"; ObjectID = "R3k-HR-goq"; */
+"R3k-HR-goq.text" = "Send Feedback";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "Rje-Bc-gVz"; */
+"Rje-Bc-gVz.normalTitle" = "8";
+
+/* Class = "UINavigationItem"; title = "Send"; ObjectID = "S8a-M4-jNO"; */
+"S8a-M4-jNO.title" = "Send";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "ST7-D4-WbW"; */
+"ST7-D4-WbW.title" = "Title";
+
+/* Class = "UITextView"; text = "Currency information is collected from   https://www.cryptocompare.com"; ObjectID = "Sho-ok-kpJ"; */
+"Sho-ok-kpJ.text" = "Currency information is collected from   https://www.cryptocompare.com";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Sy8-zi-o0k"; */
+"Sy8-zi-o0k.text" = "-";
+
+/* Class = "UILabel"; text = "$0.00 (USD)"; ObjectID = "Toe-Bf-j7v"; */
+"Toe-Bf-j7v.text" = "$0.00 (USD)";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "UTS-CW-gf7"; */
+"UTS-CW-gf7.text" = "-";
+
+/* Class = "UILabel"; text = "Bal. 0.00"; ObjectID = "Uai-5C-Ufh"; */
+"Uai-5C-Ufh.text" = "Bal. 0.00";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "UcY-Vc-Kgs"; */
+"UcY-Vc-Kgs.title" = "Settings";
+
+/* Class = "UITableViewSection"; headerTitle = "GENERAL"; ObjectID = "VUH-FH-Hf3"; */
+"VUH-FH-Hf3.headerTitle" = "GENERAL";
+
+/* Class = "UINavigationItem"; title = "Send"; ObjectID = "VXC-HY-CtX"; */
+"VXC-HY-CtX.title" = "Send";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "Vpu-4h-qt9"; */
+"Vpu-4h-qt9.title" = "Settings";
+
+/* Class = "UILabel"; text = "? XEM:"; ObjectID = "Vvq-i5-GUU"; */
+"Vvq-i5-GUU.text" = "? XEM:";
+
+/* Class = "UILabel"; text = "Date:"; ObjectID = "W59-7s-UQm"; */
+"W59-7s-UQm.text" = "Date:";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "XYJ-u0-t9F"; */
+"XYJ-u0-t9F.normalTitle" = "3";
+
+/* Class = "UITextField"; placeholder = "private key"; ObjectID = "Y6K-Hr-upG"; */
+"Y6K-Hr-upG.placeholder" = "private key";
+
+/* Class = "UILabel"; text = "(0.00)"; ObjectID = "YYt-J1-PyM"; */
+"YYt-J1-PyM.text" = "(0.00)";
+
+/* Class = "UILabel"; text = "Alternate Currency"; ObjectID = "Z4v-Va-YmV"; */
+"Z4v-Va-YmV.text" = "Alternate Currency";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZUO-xi-gfX"; */
+"ZUO-xi-gfX.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Receive"; ObjectID = "Zsk-bN-9Zd"; */
+"Zsk-bN-9Zd.title" = "Receive";
+
+/* Class = "UILabel"; text = "Wallet Backup"; ObjectID = "aCh-9M-SP6"; */
+"aCh-9M-SP6.text" = "Wallet Backup";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "aL9-7v-DL9"; */
+"aL9-7v-DL9.text" = "USD";
+
+/* Class = "UILabel"; text = "400"; ObjectID = "b6E-1d-JW4"; */
+"b6E-1d-JW4.text" = "400";
+
+/* Class = "UIButton"; normalTitle = "Sounds good"; ObjectID = "bsf-eo-G9r"; */
+"bsf-eo-G9r.normalTitle" = "Sounds good";
+
+/* Class = "UILabel"; text = "Message:"; ObjectID = "bvD-H4-Dyt"; */
+"bvD-H4-Dyt.text" = "Message:";
+
+/* Class = "UILabel"; text = "Enter a new PIN"; ObjectID = "cRh-is-gMG"; */
+"cRh-is-gMG.text" = "Enter a new PIN";
+
+/* Class = "UINavigationItem"; title = "My Mosaics"; ObjectID = "d0e-uE-esB"; */
+"d0e-uE-esB.title" = "My Mosaics";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "dFy-nZ-HIv"; */
+"dFy-nZ-HIv.normalTitle" = "Next";
+
+/* Class = "UITabBarItem"; title = "Wallet"; ObjectID = "dM1-bN-8Ga"; */
+"dM1-bN-8Ga.title" = "Wallet";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "ebj-BA-37V"; */
+"ebj-BA-37V.placeholder" = "password";
+
+/* Class = "UILabel"; text = "Recipient"; ObjectID = "fEY-Wu-CwW"; */
+"fEY-Wu-CwW.text" = "Recipient";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fhh-nC-IWU"; */
+"fhh-nC-IWU.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "flS-ld-afm"; */
+"flS-ld-afm.placeholder" = "Amount";
+
+/* Class = "UILabel"; text = "Fee:"; ObjectID = "flq-9U-fBw"; */
+"flq-9U-fBw.text" = "Fee:";
+
+/* Class = "UILabel"; text = "CHE"; ObjectID = "foM-zn-4Ms"; */
+"foM-zn-4Ms.text" = "CHE";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "fs2-xM-eYO"; */
+"fs2-xM-eYO.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "Fee:"; ObjectID = "gC0-KI-R5o"; */
+"gC0-KI-R5o.text" = "Fee:";
+
+/* Class = "UINavigationItem"; title = "Confirm"; ObjectID = "gJg-9N-lSM"; */
+"gJg-9N-lSM.title" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "gKp-7v-2Ig"; */
+"gKp-7v-2Ig.normalTitle" = "<";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "gP5-we-9gl"; */
+"gP5-we-9gl.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "h9U-Be-1Ay"; */
+"h9U-Be-1Ay.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hX5-Dq-rG9"; */
+"hX5-Dq-rG9.text" = "Label";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "iIp-3q-Xac"; */
+"iIp-3q-Xac.text" = "-";
+
+/* Class = "UILabel"; text = "0.05 XEM"; ObjectID = "iOC-yb-0tq"; */
+"iOC-yb-0tq.text" = "0.05 XEM";
+
+/* Class = "UILabel"; text = "Balance:"; ObjectID = "iUF-TC-ooy"; */
+"iUF-TC-ooy.text" = "Balance:";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "iwb-vJ-R7n"; */
+"iwb-vJ-R7n.text" = "0.00";
+
+/* Class = "UITextField"; placeholder = "wallet name"; ObjectID = "jOU-W8-weF"; */
+"jOU-W8-weF.placeholder" = "wallet name";
+
+/* Class = "UILabel"; text = "No Wallet (..xxxx)"; ObjectID = "jar-nF-HeU"; */
+"jar-nF-HeU.text" = "No Wallet (..xxxx)";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "kas-sV-lqZ"; */
+"kas-sV-lqZ.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "lrg-QB-jiq"; */
+"lrg-QB-jiq.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "mG3-3b-Zax"; */
+"mG3-3b-Zax.normalTitle" = "9";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "mkB-oV-jKB"; */
+"mkB-oV-jKB.text" = "0.00";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "nG6-9r-ndV"; */
+"nG6-9r-ndV.text" = "0.00";
+
+/* Class = "UILabel"; text = "Insufficient funds"; ObjectID = "nYO-bd-Gjl"; */
+"nYO-bd-Gjl.text" = "Insufficient funds";
+
+/* Class = "UILabel"; text = "You are sending"; ObjectID = "nc8-Ya-8Gr"; */
+"nc8-Ya-8Gr.text" = "You are sending";
+
+/* Class = "UITextField"; placeholder = "Type here"; ObjectID = "oFh-7c-VSc"; */
+"oFh-7c-VSc.placeholder" = "Type here";
+
+/* Class = "UIButton"; normalTitle = "Save wallet QR to Photos"; ObjectID = "p1r-Qa-lAd"; */
+"p1r-Qa-lAd.normalTitle" = "Save wallet QR to Photos";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "p5Q-hY-9wg"; */
+"p5Q-hY-9wg.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pGa-zA-IOJ"; */
+"pGa-zA-IOJ.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "wallet account name"; ObjectID = "rRa-vp-QVG"; */
+"rRa-vp-QVG.placeholder" = "wallet account name";
+
+/* Class = "UILabel"; text = "Address Copied!"; ObjectID = "rh5-im-ofB"; */
+"rh5-im-ofB.text" = "Address Copied!";
+
+/* Class = "UILabel"; text = "3 hours ago"; ObjectID = "t5V-HN-xLI"; */
+"t5V-HN-xLI.text" = "3 hours ago";
+
+/* Class = "UIButton"; normalTitle = "Create new wallet"; ObjectID = "thS-sf-c24"; */
+"thS-sf-c24.normalTitle" = "Create new wallet";
+
+/* Class = "UILabel"; text = "No Mosaics"; ObjectID = "u2k-SI-HKj"; */
+"u2k-SI-HKj.text" = "No Mosaics";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "uKA-yg-ISI"; */
+"uKA-yg-ISI.text" = "To:";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "vRu-Qj-8b0"; */
+"vRu-Qj-8b0.placeholder" = "password";
+
+/* Class = "UILabel"; text = "Therefore we want to make sure you have a backup of your own account."; ObjectID = "vS9-6H-TJP"; */
+"vS9-6H-TJP.text" = "Therefore we want to make sure you have a backup of your own account.";
+
+/* Class = "UILabel"; text = "Recipient"; ObjectID = "wxb-hQ-2bD"; */
+"wxb-hQ-2bD.text" = "Recipient";
+
+/* Class = "UILabel"; text = "Transaction ID:"; ObjectID = "x0k-Wf-eZl"; */
+"x0k-Wf-eZl.text" = "Transaction ID:";
+
+/* Class = "UIButton"; normalTitle = "Copy Address"; ObjectID = "xE2-4Q-HcI"; */
+"xE2-4Q-HcI.normalTitle" = "Copy Address";
+
+/* Class = "UILabel"; text = "Signer:"; ObjectID = "xGm-PW-ibH"; */
+"xGm-PW-ibH.text" = "Signer:";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "xka-y8-cwM"; */
+"xka-y8-cwM.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Send Payment Request"; ObjectID = "yP2-KM-lE0"; */
+"yP2-KM-lE0.normalTitle" = "Send Payment Request";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "yYY-gc-x1I"; */
+"yYY-gc-x1I.normalTitle" = "7";
+
+/* Class = "UILabel"; text = "$0.00 (USD)"; ObjectID = "ypo-5P-gZb"; */
+"ypo-5P-gZb.text" = "$0.00 (USD)";
+
+/* Class = "UIButton"; normalTitle = "Email backup wallet"; ObjectID = "yxq-jx-e5n"; */
+"yxq-jx-e5n.normalTitle" = "Email backup wallet";
+
+/* Class = "UITableViewSection"; headerTitle = "PREFERENCES"; ObjectID = "zeg-tA-3v9"; */
+"zeg-tA-3v9.headerTitle" = "PREFERENCES";

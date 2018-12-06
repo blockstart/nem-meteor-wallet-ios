@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  Meteor
+
+  Created by Nathan Brewer on 8/22/18.
+  Copyright © 2018 Blockstart. All rights reserved.
+*/
+
+"Scan to Import Wallet" = "Scan to Import Wallet";
+"My Mosaics" = "My Mosaics";
+"Current XEM Price" = "Current XEM Price";
+"Passwords do not match" = "Passwords do not match";
+"Password must be at least 8 characters" = "Password must be at least 8 characters";
+"Please fill out form completely" = "Please fill out form completely";
+"Email was not sent, please try again" = "Email was not sent, please try again";
+"Enter a wallet account name and password" = "Enter a wallet account name and password";
+"account" = "account";
+"name" = "name";
+"password" = "password";
+"Meteor Wallet is fully decentralized and does not store any of your data." = "Meteor Wallet is fully decentralized and data is only stored locally.";
+"data is only stored locally." = "data is only stored locally.";
+"Enter the private key, wallet name, and password for your wallet" = "Enter the private key, wallet name, and password for your wallet";
+"Your Wallet Backup" = "Your Wallet Backup";
+"An email has been sent to" = "An email has been sent to";
+"Address Copied!" = "Address Copied!";
+"Just a friendly reminder" = "Just a friendly reminder";
+"Next" = "Next";
+"Send" = "Send";
+"Cancel" = "Cancel";
+"recipient" = "recipient";
+"currency" = "currency";
+"amount" = "amount";
+"Error" = "Error";
+"Enter your password" = "Enter your password";
+"Retype password" = "Retype password";
+"You don't have any mosaics in this wallet" = "You don't have any mosaics in this wallet";
+"USD" = "USD";
+"New Wallet" = "New Wallet";
+"Import From QR Code" = "Import From QR Code";
+"Import From Private Key" = "Import From Private Key";
+"Create New Wallet" = "Create New Wallet";
+"Received" = "Received";
+"Sent" = "Sent";
+"Pending" = "Pending";
+"To:" = "To:";
+"Date:" = "Date:";
+"Fee:" = "Fee:";
+"Message:" = "Message:";
+"Transaction ID:" = "Transaction ID:";
+"wallet account name" = "wallet account name";
+"Send me my backup file" = "Send me my backup file";
+"Type email" = "Type email";
+"You're all set!" = "You're all set!";
+"private key" = "private key";
+"wallet name" = "wallet name";
+"Unable to find wallet" = "Unable to find wallet";
+"Make sure you have a wallet on your device, or you can create a new one from the home screen" = "Make sure you have a wallet on your device, or you can create a new one from the home screen";
+"Not Authorized" = "Not Authorized";
+"You can allow Meteor Wallet to access the camera in your phones Settings Menu" = "You can allow Meteor Wallet to access the camera in your phones Settings Menu";
+"Insufficient funds" = "Insufficient funds";
+"Missing Mosaic" = "Missing Mosaic";
+"password belonging to this wallet" = "password belonging to this wallet";
+"Import" = "Import";
+"Bal." = "Bal.";
+"Incorrect password" = "Incorrect password";
+"Signer" = "Signer";
+"bad QR" = "Invalid QR Code";
+"properQRCode" = "Try scanning your backup wallet QR code or your nano wallet QR code";
+"Show" = "Show";
+"Create Wallet" = "Create Wallet";
+"No Wallets" = "No Wallets";
+"noWallet1" = "To continue you will have to make a new wallet for the";
+"noWallet2" = "or cancel to stay here.";
+"wrongNetwork" = "This wallet is not from the current network. Please switch networks before importing this wallet";
+"incorrectNetwork" = "Incorrect Network";
+"duplicateImport" = "This wallet has already been imported";
+"duplicateTitle" = "Duplicate";
+"photoBackup" = "A backup wallet has been saved to";
+"photos" = "Photos";
+"noEmailFound" = "Meteor Wallet was unable to open your mail app";
+"noPhotoPermission" = "You have not given Meteor Wallet access to Photos";
+"pinEnabled" = "Pin Lock Enabled";
+"pinDisabled" = "Pin Lock Disabled";
+"faceId" = "Use Face ID to login";
+"touchId" = "Use Touch ID to login";
+"removePinLock" = "Enter Pin to remove Pin Lock";
+"Enter Pin" = "Enter Pin";
+"Confirm New Pin" = "Confirm New Pin";
+"Enter New Pin" = "Enter New Pin";
+"enablePin" = "Enable Pin Login?";
+"disablePin" = "Disable Pin Login?";
+"enablePinWarning" = "With Pin Login enabled you will be required to enter your pin each time you open Meteor Wallet. Pins are stored locally on your device and if you forget your pin you will have to re-install the app and re-import your wallet.";
+"Copied!" = "Copied!";

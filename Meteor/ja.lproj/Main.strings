@@ -1,0 +1,129 @@
+
+/* Class = "UITextField"; placeholder = "Enter wallet address"; ObjectID = "0yM-4c-vrv"; */
+"0yM-4c-vrv.placeholder" = "ウォレットの住所を入力してください";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "10V-Y7-qA9"; */
+"10V-Y7-qA9.normalTitle" = "次に";
+
+/* Class = "UILabel"; text = "Send, receive, & manage"; ObjectID = "1Lk-Xg-zjM"; */
+"1Lk-Xg-zjM.text" = "Send, receive, & manage";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "6ZC-D1-2x6"; */
+"6ZC-D1-2x6.normalTitle" = "送信";
+
+/* Class = "UILabel"; text = "your cryptocurrencies built on NEM"; ObjectID = "6md-S7-Wi5"; */
+"6md-S7-Wi5.text" = "your cryptocurrencies built on NEM";
+
+/* Class = "UIButton"; normalTitle = "View on explorer"; ObjectID = "AbY-Z1-WHw"; */
+"AbY-Z1-WHw.normalTitle" = "View on explorer";
+
+/* Class = "UIButton"; normalTitle = "I'll do this later"; ObjectID = "EeJ-08-76q"; */
+"EeJ-08-76q.normalTitle" = "I'll do this later";
+
+/* Class = "UILabel"; text = "This contains a QR code that you can use to re-import your wallet if needed."; ObjectID = "HYR-aK-Ie7"; */
+"HYR-aK-Ie7.text" = "This contains a QR code that you can use to re-import your wallet if needed. Your private key is always encrypted.";
+
+/* Class = "UINavigationItem"; title = "Transactions"; ObjectID = "HqX-pX-lpx"; */
+"HqX-pX-lpx.title" = "トランザクション";
+
+/* Class = "UITabBarItem"; title = "Send"; ObjectID = "Lhh-PG-dGp"; */
+"Lhh-PG-dGp.title" = "送信";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "NTb-QH-7CH"; */
+"NTb-QH-7CH.text" = "From:";
+
+/* Class = "UILabel"; text = "Message (Optional):"; ObjectID = "QNy-pd-Gtp"; */
+"QNy-pd-Gtp.text" = "Message (Optional):";
+
+/* Class = "UITabBarItem"; title = "Receive"; ObjectID = "QvD-Vw-F6A"; */
+"QvD-Vw-F6A.title" = "受け取る";
+
+/* Class = "UINavigationItem"; title = "Send"; ObjectID = "S8a-M4-jNO"; */
+"S8a-M4-jNO.title" = "送信";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "UcY-Vc-Kgs"; */
+"UcY-Vc-Kgs.title" = "設定";
+
+/* Class = "UINavigationItem"; title = "Send"; ObjectID = "VXC-HY-CtX"; */
+"VXC-HY-CtX.title" = "送信";
+
+/* Class = "UINavigationItem"; title = "Receive"; ObjectID = "Zsk-bN-9Zd"; */
+"Zsk-bN-9Zd.title" = "受け取る";
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "ZyT-cs-aWs"; */
+"ZyT-cs-aWs.normalTitle" = "Change";
+
+/* Class = "UIButton"; normalTitle = "Sounds good"; ObjectID = "bsf-eo-G9r"; */
+"bsf-eo-G9r.normalTitle" = "Sounds good";
+
+/* Class = "UINavigationItem"; title = "My Mosaics"; ObjectID = "d0e-uE-esB"; */
+"d0e-uE-esB.title" = "じぶんのMosaics";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "dFy-nZ-HIv"; */
+"dFy-nZ-HIv.normalTitle" = "次に";
+
+/* Class = "UITabBarItem"; title = "Wallet"; ObjectID = "dM1-bN-8Ga"; */
+"dM1-bN-8Ga.title" = "財布";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "ebj-BA-37V"; */
+"ebj-BA-37V.placeholder" = "password";
+
+/* Class = "UILabel"; text = "Recipient"; ObjectID = "fEY-Wu-CwW"; */
+"fEY-Wu-CwW.text" = "受容者";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "flS-ld-afm"; */
+"flS-ld-afm.placeholder" = "量";
+
+/* Class = "UILabel"; text = "Fee:"; ObjectID = "gC0-KI-R5o"; */
+"gC0-KI-R5o.text" = "Fee:";
+
+/* Class = "UINavigationItem"; title = "Confirm"; ObjectID = "gJg-9N-lSM"; */
+"gJg-9N-lSM.title" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "gP5-we-9gl"; */
+"gP5-we-9gl.normalTitle" = "次に";
+
+/* Class = "UILabel"; text = "Balance:"; ObjectID = "iUF-TC-ooy"; */
+"iUF-TC-ooy.text" = "Balance:";
+
+/* Class = "UILabel"; text = "You are sending"; ObjectID = "nc8-Ya-8Gr"; */
+"nc8-Ya-8Gr.text" = "You are sending";
+
+/* Class = "UITextField"; placeholder = "Type here"; ObjectID = "oFh-7c-VSc"; */
+"oFh-7c-VSc.placeholder" = "Type here";
+
+/* Class = "UITextField"; placeholder = "wallet account name"; ObjectID = "rRa-vp-QVG"; */
+"rRa-vp-QVG.placeholder" = "wallet account name";
+
+/* Class = "UILabel"; text = "Address Copied!"; ObjectID = "rh5-im-ofB"; */
+"rh5-im-ofB.text" = "Address Copied!";
+
+/* Class = "UIButton"; normalTitle = "Create new wallet"; ObjectID = "thS-sf-c24"; */
+"thS-sf-c24.normalTitle" = "Create new wallet";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "vRu-Qj-8b0"; */
+"vRu-Qj-8b0.placeholder" = "パスワード";
+
+/* Class = "UILabel"; text = "Therefore we want to make sure you have a backup of your own account."; ObjectID = "vS9-6H-TJP"; */
+"vS9-6H-TJP.text" = "Therefore we want to make sure you have a backup of your own account.";
+
+/* Class = "UILabel"; text = "Recipient"; ObjectID = "wxb-hQ-2bD"; */
+"wxb-hQ-2bD.text" = "受信者";
+
+/* Class = "UIButton"; normalTitle = "Copy Address"; ObjectID = "xE2-4Q-HcI"; */
+"xE2-4Q-HcI.normalTitle" = "Copy Address";
+
+/* Class = "UIButton"; normalTitle = "Send Payment Request"; ObjectID = "yP2-KM-lE0"; */
+"yP2-KM-lE0.normalTitle" = "Send Payment Request";
+
+/* Class = "UIButton"; normalTitle = "Back up my wallet"; ObjectID = "yxq-jx-e5n"; */
+"yxq-jx-e5n.normalTitle" = "Email backup wallet";
+
+/* Class = "UILabel"; text = "Enable Pin Login"; ObjectID = "2DW-d7-1Uc"; */
+"2DW-d7-1Uc.text" = "Enable Pin Login";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "uKA-yg-ISI"; */
+"uKA-yg-ISI.text" = "宛:"
+
+/* Class - "UILabel"; text = "Signer:"; ObjectID = "xGm-PW-ibH"; */
+"xGm-PW-ibH.text" = "サイン主:"

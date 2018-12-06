@@ -1,0 +1,5 @@
+DerivedData
+Carthage
+.DS_Store
+build
+*.orig

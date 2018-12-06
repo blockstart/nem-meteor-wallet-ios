@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" "4.7.3"
+github "airbnb/lottie-ios" "21122a769ccc3e43ffd23f80b7c8c48247834900"
+github "daltoniam/Starscream" "3.0.5"
+github "hyperoslo/Cache" "5.1.0"
+github "socketio/socket.io-client-swift" "v13.3.0"

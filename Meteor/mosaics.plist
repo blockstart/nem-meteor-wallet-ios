@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mosaics</key>
+	<dict>
+		<key>devslopescache</key>
+		<string>CHE</string>
+		<key>nemxem</key>
+		<string>XEM</string>
+		<key>dimcoin</key>
+		<string>DIM</string>
+		<key>pundixnpxs</key>
+		<string>NPXS</string>
+		<key>cachecache</key>
+		<string>CHE</string>
+		<key>appsolutelylyl</key>
+		<string>LYL</string>
+		<key>prxxpx</key>
+		<string>XPS</string>
+	</dict>
+</dict>
+</plist>
