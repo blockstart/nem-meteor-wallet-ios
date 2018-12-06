@@ -16,8 +16,8 @@ struct PushNotification: Serializable {
 }
 
 struct PushAPI {
-    static let URL_REGISTER = "https://pocketlint.blockstart.io/staging/v1/pushNotification/register"
-    static let URL_MAIN_REGISTER = "https://push.blockstart.io/v1/pushNotification/register"
+    static let URL_REGISTER = "https://your-push-notif-test-server.io/staging/v1/pushNotification/register"
+    static let URL_MAIN_REGISTER = "https://your-push-notif-server.io/v1/pushNotification/register"
 }
 
 extension PushNotification {
