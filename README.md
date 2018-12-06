@@ -1,6 +1,8 @@
 ![NEM Meteor Wallet Promo Image](https://s3.amazonaws.com/devslopes-qa-forum/readme-nem-meteor-promo.png)
 # NEM Meteor Wallet
 
+[Download For iOS](https://itunes.apple.com/us/app/nem-meteor-wallet/id1418697062?mt=8&ign-mpt=uo%3D4)
+
 The NEM Meteor Wallet is a powerful wallet for managing XEM and NEM-based tokens known as Mosaics.
 
 After spending many weeks prototyping this wallet using React Native and Ionic we could not achieve the desire performance needed for a high-quality application. We went back to the drawing board to figure out a way to interface with the NEM blockchain using native Swift for iOS and native Kotlin for Android.  
