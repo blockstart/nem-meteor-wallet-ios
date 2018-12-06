@@ -29,7 +29,7 @@ Note: Multi Signature is coming soon and NOT yet included in the code
 
 NEM Meteor Wallet uses [NEM Library](https://github.com/aleixmorgadas/nem-library-ts) to communicate with the NEM blockchain.
 
-Unfortunately NEM Library was not built to support web-based applications and requires a C++ Node runtime. This caused problems supporting React Native and Ionic. Aside from those issues, React Native and Ionic both use web components to interface with native elements on iOS and Android which causes performance issues.
+The reason we built this application is so we could enjoy the high-performance of native mobile applications while also using the well-tested Javascript based NEM Library and associated Crypto tooling.
 
 
 ![NEM Meteor architecture](https://s3.amazonaws.com/devslopes-qa-forum/meteor-readme-architecture.png)
