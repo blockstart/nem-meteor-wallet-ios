@@ -3,3 +3,4 @@ Carthage
 .DS_Store
 build
 *.orig
+*.entitlements
