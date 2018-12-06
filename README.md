@@ -1,6 +1,8 @@
 ![NEM Meteor Wallet Promo Image](https://s3.amazonaws.com/devslopes-qa-forum/readme-nem-meteor-promo.png)
 # NEM Meteor Wallet
 
+[Download For iOS](https://itunes.apple.com/us/app/nem-meteor-wallet/id1418697062?mt=8&ign-mpt=uo%3D4)
+
 The NEM Meteor Wallet is a powerful wallet for managing XEM and NEM-based tokens known as Mosaics.
 
 After spending many weeks prototyping this wallet using React Native and Ionic we could not achieve the desire performance needed for a high-quality application. We went back to the drawing board to figure out a way to interface with the NEM blockchain using native Swift for iOS and native Kotlin for Android.  
@@ -29,7 +31,7 @@ Note: Multi Signature is coming soon and NOT yet included in the code
 
 NEM Meteor Wallet uses [NEM Library](https://github.com/aleixmorgadas/nem-library-ts) to communicate with the NEM blockchain.
 
-Unfortunately NEM Library was not built to support web-based applications and requires a C++ Node runtime. This caused problems supporting React Native and Ionic. Aside from those issues, React Native and Ionic both use web components to interface with native elements on iOS and Android which causes performance issues.
+The reason we built this application is so we could enjoy the high-performance of native mobile applications while also using the well-tested Javascript based NEM Library and associated Crypto tooling.
 
 
 ![NEM Meteor architecture](https://s3.amazonaws.com/devslopes-qa-forum/meteor-readme-architecture.png)
